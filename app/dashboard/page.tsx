@@ -1,15 +1,15 @@
 import Header from '@/components/Header'
 import React from 'react'
 
-const LandingPage = () => {
+const Dashboard = () => {
   return (
     <div className='max-w-6xl mx-auto'>
       <Header />
       <main className='flex min-h-screen w-full flex-col justify-center items-center'>
-        Landing Page
+        <h1>Dashboard</h1>
       </main>
     </div>
   )
 }
 
-export default LandingPage
+export default Dashboard
