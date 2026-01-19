@@ -1,0 +1,1635 @@
+# Clerk
+
+> The most comprehensive User Management Platform. Clerk is a complete suite of embeddable UIs, flexible APIs, and admin dashboards to authenticate and manage your users.
+
+## Product
+
+- [User Authentication](https://clerk.com/user-authentication): Powerful options to securely authenticate and manage your users
+- [Organizations](https://clerk.com/organizations): Add-on features built specifically for B2B applications
+- [Billing](https://clerk.com/billing): The easiest way to implement subscriptions for applications
+
+## Solutions
+
+- [React Components](https://clerk.com/react-components): Embeddable prebuilt UI components for quick and seamless integrations
+- [Next.js Authentication](https://clerk.com/nextjs-authentication): The fastest and most seamless authentication solution for Next.js
+- [Expo Authentication](https://clerk.com/expo-authentication): Implement cross-platform authentication the React way
+- [Authentication for AI](https://clerk.com/ai-authentication): Authentication and abuse protection tailored to AI applications
+
+## Blog
+
+- [Add API Key support to your SaaS in minutes](https://clerk.com/blog/add-api-key-support-to-your-saas-with-clerk): Learn how to implement multi-tenant API Key functionality in your SaaS platform without the complexity.
+- [How do I implement passkeys in Next.js?](https://clerk.com/blog/how-do-i-implement-passkeys-in-nextjs): Learn how passkeys enable passwordless authentication with phishing-resistant cryptography. This tutorial walks through a complete Next.js WebAuthn implementation, covering registration and authentication flows.
+- [Clerk ranked #4 fastest-growing software vendor on Ramp’s December 2025 list](https://clerk.com/blog/clerk-ranked-4-fastest-growing-software-vendor-by-ramp): Recognition highlights Clerk’s rapid customer adoption
+- [How do I handle JWT verification in Next.js?](https://clerk.com/blog/how-do-i-handle-jwt-verification-in-nextjs): Learn all about JWTs: what they are, how they are created, and how to verify them in a Next.js application
+- [Committing to Agent Identity: Clerk raises $50m Series C from Menlo and Anthropic’s Anthology Fund](https://clerk.com/blog/series-c): Funding will be used to advance Agent Identity, expand products, and elevate developer experience.
+- [What is the best way to handle authentication in Next.js App Router?](https://clerk.com/blog/best-auth-nextjs-app-router): Learn about the various authentication options available when using Next.js app router, and how to properly secure access to protected areas of your application.
+- [Postmortem: Database Incident (September 14–18, 2025)](https://clerk.com/blog/2025-09-18-database-incident-postmortem): A detailed post-mortem of the database incident that occurred between September 14-18, 2025, including root cause analysis, timeline, and remediation steps.
+
+- [How do I add authentication to a Next.js app?](https://clerk.com/blog/how-to-add-authentication-to-a-nextjs-application): Learn how Next.js authentication works by implementing JWTs from scratch, including user registration, sign-in/sign-out functionality, and middleware protection.
+- [Introducing Free Trials in Clerk Billing](https://clerk.com/blog/introducing-free-trials-in-clerk-billing): Clerk Billing now supports free trials to help developers boost conversion rates and reduce buyer friction.
+- [Postmortem: August 28, 2025 - elevated API latency and errors](https://clerk.com/blog/postmortem-aug-28-2025-elevated-latency-errors): On August 28, 2025, a credential stuffing attack caused elevated API latency and errors. This postmortem details the impact, root cause, and remediations.
+- [Introducing Mosaic: Bring Your Brand to Every Authentication Flow](https://clerk.com/blog/introducing-mosaic-bring-your-brand-to-every-authentication-flow): Introducing Mosaic, our new Figma design system that mirrors every Clerk UI component. Design and prototype auth flows that look and feel like your product before writing a single line of code.
+- [Multi-tenant authentication: What you need to know (and how Clerk helps)](https://clerk.com/blog/multi-tenant-authentication-what-you-need-to-know): Learn what multi-tenant authentication is, common pitfalls and use cases, and how Clerk can help simplify implementation.
+- [What are the risks and challenges of multi-tenancy?](https://clerk.com/blog/what-are-the-risks-and-challenges-of-multi-tenancy): Multi-tenancy offers scalability benefits but requires careful design for tenant isolation, performance, and compliance. Learn about five potential caveats when implementing multi-tenancy in your B2B applications.
+- [Resilience in Practice: Regional Failover at Clerk](https://clerk.com/blog/resilience-in-practice-regional-failover): See how Clerk's new regional failover kept services running during a cloud provider outage.
+- [Build a Cross-Platform B2B App with Clerk, Expo, and Supabase](https://clerk.com/blog/build-a-cross-platform-b2b-app-expo-supabase): Learn how to add multi-tenancy to your React Native & Expo app using Clerk and Supabase.
+- [Highlights from the MiduDev/Clerk Hackathon](https://clerk.com/blog/highlights-midudev-clerk-hackathon): Explore the top 5 projects from the MiduDev/Clerk Hackathon, showcasing creativity, technical skills, and community engagement.
+- [Using Clerk in a React Native app](https://clerk.com/blog/using-clerk-in-a-react-native-app): Build a cross-platform time tracking app from scratch with React Native and Expo, implement secure authentication with Clerk, and set up data storage using Supabase.
+- [Add multi-tenancy to an app built with Clerk, Lovable, and Supabase](https://clerk.com/blog/multi-tenancy-clerk-lovable): Learn how to transform your single-user app into a team-ready B2B platform using Clerk Organizations with Lovable and Supabase.
+- [How to build an AI coding rules app with Clerk, Lovable, and Supabase](https://clerk.com/blog/build-app-with-lovable-supabase-clerk): Learn how to vibe code a secure app with Clerk, Lovable, and Supabase
+- [How to Build Multi-Tenant Authentication with Clerk](https://clerk.com/blog/how-to-build-multitenant-authentication-with-clerk): Multi-tenancy is one of those architectural decisions that pays off early and compounds over time. Clerk enables you to build multi-tenant authentication with ease.
+- [Choosing the right SaaS architecture: Multi-Tenant vs. Single-Tenant](https://clerk.com/blog/multi-tenant-vs-single-tenant): What's the difference between multi-tenant and single-tenant SaaS architecture? This guide breaks down the pros, cons, and use cases of each model—so you can choose the right B2B SaaS architecture for your app. Learn how multi-tenancy scales efficiently, when single-tenancy is the better fit, and which modern tools make tenant isolation easier than ever.
+- [Postmortem: June 26, 2025 service outage](https://clerk.com/blog/postmortem-jun-26-2025-service-outage): Learn more about our service outage, including the timeline of events and our next steps.
+- [How to Design a Multi-Tenant SaaS Architecture](https://clerk.com/blog/how-to-design-multitenant-saas-architecture): Learn how to design a multi-tenant SaaS architecture that scales from your first 10 users to your next 10,000.
+- [What is multi-tenancy and why it matters for B2B SaaS](https://clerk.com/blog/what-is-multi-tenancy-and-why-it-matters-for-B2B-SaaS): Learn what multi-tenancy is, why it matters for B2B SaaS apps, and how it shapes your architecture decisions.
+- [How OAuth Works](https://clerk.com/blog/how-oauth-works): A practical guide to OAuth Scoped Access that walks through the Authorization Code Flow with real code examples, security best practices, and clear explanations of how third-party app integrations actually work.
+- [Synchronize user data from Clerk to Supabase](https://clerk.com/blog/sync-clerk-user-data-to-supabase): Learn how to synchronize user data from Clerk to Supabase with webhooks and Supabase Functions
+- [Add subscriptions to your SaaS with Clerk Billing](https://clerk.com/blog/add-subscriptions-to-your-saas-with-clerk-billing): Learn how to quickly monetize your SaaS with subscriptions powered by Clerk Billing.
+- [Getting started with Clerk Billing](https://clerk.com/blog/intro-to-clerk-billing): Learn how to build a complete billing experience with Clerk and Stripe, from subscriptions and usage-based pricing to role-based access—no custom UI or webhooks required.
+- [Multi-tenant analytics with Tinybird and Clerk](https://clerk.com/blog/tinybird-and-clerk): How to use Clerk's Tinybird JWT template to secure Tinybird APIs for fast, easy, and secure user-facing analytics in your multi-tenant application.
+- [How Huntr Migrated 250K Users to Clerk: A Scalable Auth Solution for Startups](https://clerk.com/blog/huntr-testimonial): Huntr shares how migrating to Clerk gave them transparent pricing, responsive support, and a developer-first experience.
+- [How to take Clerk to Production](https://clerk.com/blog/how-to-take-clerk-to-production): Step-by-step guide for developers to launch a Clerk app in a production environment with a custom domain, OAuth credentials, and secure DNS configuration.
+- [How to take your Clerk application to production](https://clerk.com/blog/how-to-take-your-clerk-app-to-prod): Learn how to launch your app with a production instance of Clerk to maximize security and user limits.
+- [A practical guide to testing Clerk Next.js applications](https://clerk.com/blog/testing-clerk-nextjs): An example-packed guide to writing effective tests for Clerk applications, covering everything from integration testing with React Testing Library to end-to-end testing using Playwright.
+- [Implementing multi-tenancy into a Supabase app with Clerk](https://clerk.com/blog/multitenancy-clerk-supabase-b2b): Learn how to build B2B applications with Clerk and Supabase.
+- [How Clerk integrates with a Next.js application using Supabase](https://clerk.com/blog/how-clerk-integrates-nextjs-supabase): Learn how Supabase works with Next.js to increase security and reduce development hours, and how Clerk integrates with this stack.
+- [How Clerk integrates with Supabase](https://clerk.com/blog/how-clerk-integrates-with-supabase-auth): Learn how Supabase Auth works and how Clerk can provide more capabilities in less time.
+- [Next.js CVE-2025-29927](https://clerk.com/blog/cve-2025-29927): On March 21, 2025, Next.js disclosed a critical security vulnerability, CVE-2025-29927, that may impact your application.
+- [Build a blog with tRPC, Prisma, Next.js and Clerk](https://clerk.com/blog/build-a-blog-with-trpc-prisma-nextjs-clerk): Learn how to work with tRPC, Prisma, Next.js, and Clerk by building a secure blog application
+- [How to enrich PostHog events with Clerk user data](https://clerk.com/blog/posthog-events-with-clerk): Learn how to enrich PostHog events with Clerk user data to better understand your users and their actions on your website.
+- [How to build a secure project management platform with Next.js, Clerk, and Neon](https://clerk.com/blog/build-secure-project-management-nextjs): Learn a security-first approach to building web applications by building a secure project management platform with Next.js.
+- [Validate your SaaS idea while building an audience](https://clerk.com/blog/validate-saas): Learn how to validate a new SaaS idea with a Clerk waitlist and Loops newsletter.
+- [Postmortem: February 6, 2025 service outage](https://clerk.com/blog/postmortem-feb-6-2025-service-outage): Learn more about our service outage, including the timeline of events and our remediations.
+- [Implement Role-Based Access Control in Next.js 15](https://clerk.com/blog/nextjs-role-based-access-control): Learn Role-Based Access Control (RBAC) by building a complete Q&A platform.
+- [Build a Next.js sign-up form with React Hook Form](https://clerk.com/blog/nextjs-sign-up-form): Learn how to capture user credentials and save them securely with Argon2 password hashing.
+- [Build a Next.js login page template](https://clerk.com/blog/building-a-nextjs-login-page-template): Learn how to implement session-based authentication into a Next.js application from scratch.
+- [How to implement Google authentication in Next.js 15](https://clerk.com/blog/nextjs-google-authentication): Learn how to add Google authentication to your Next.js app, implement a user button for profile management, and enable Google One Tap using Clerk.
+- [What is middleware in Next.js?](https://clerk.com/blog/what-is-middleware-in-nextjs): Learn all about middleware in Next.js and how it works, as well as some of its common use cases, in this comprehensive guide.
+- [How to customize Next.js metadata](https://clerk.com/blog/how-to-customize-nextjs-metadata): Learn all about metadata and how to set it in your Next.js application
+- [How to set environment variables in Node.js](https://clerk.com/blog/how-to-set-environment-variables-in-nodejs): Explore the best practices and techniques you can use to set environment variables in Node.js, ensuring your app runs smoothly across different environments.
+- [Building a React Login Page Template](https://clerk.com/blog/building-a-react-login-page-template): Learn how session-based authentication works and how to implement it in a React app with Express.
+- [How to implement per-user OAuth scopes with Clerk](https://clerk.com/blog/implement-per-user-oauth-with-clerk): Learn how to implement per-user OAuth scopes with Clerk.
+- [Using Clerk SSO to access Google Calendar and other service data](https://clerk.com/blog/using-clerk-sso-access-google-calendar): Learn how to use Clerk to access data on behalf of the current user to request their availability from Google Calendar using an open-source, live demo application.
+- [Streamline enterprise customer onboarding with SAML and Clerk](https://clerk.com/blog/streamline-enterprise-onboarding-saml): Learn how to automatically enroll new users into your SAML-enabled enterprise customers.
+- [Clerk launches EASIE SSO and eliminates SSO fees](https://clerk.com/blog/clerk-launches-easio-sso-and-drops-all-sso-fees): EASIE SSO brings Clerk’s signature simplicity to a notoriously agonizing corner of authentication.
+- [How to secure Liveblocks Rooms with Clerk in Next.js](https://clerk.com/blog/secure-liveblocks-rooms-clerk-nextjs): Learn how to use Clerk user data to secure access to rooms in Liveblocks.
+- [Securing Node.js Express APIs with Clerk and React](https://clerk.com/blog/securing-node-express-apis-clerk-react): In this guide, we will cover how to use Clerk with Express to authenticate API requests using ClerkExpressWithAuth() and ClerkExpressRequireAuth() middleware.
+- [Combining the benefits of session tokens and JWTs](https://clerk.com/blog/combining-the-benefits-of-session-tokens-and-jwts): Learn about how leveraging the benefits of both session token authentication and JWTs results in the best of both approaches.
+- [Build a task manager with Next.js, Supabase, and Clerk](https://clerk.com/blog/nextjs-supabase-clerk): Learn how to integrate Clerk with Supabase by building a task manager.
+- [Comparing Clerk Webhooks vs Backend API](https://clerk.com/blog/webhooks-v-bapi): Learn when to use Clerk Webhooks or the Backend API to efficiently access user data and avoid unnecessary complexity.
+- [Automate Neon schema changes with Drizzle and GitHub Actions](https://clerk.com/blog/automate-neon-schema-changes-with-drizzle-and-github-actions): Learn about schema migrations and how they can be applied to a Neon database with Drizzle and GitHub Actions
+- [A guide to reading authenticated user data from Clerk](https://clerk.com/blog/read-user-data-guide): Learn how to access data about the currently authenticated user with Clerk's APIs and session claims.
+- [Role based access control with Clerk Organizations](https://clerk.com/blog/role-based-access-control-with-clerk-orgs): Learn what role based access control is and how to use it with Clerk Organizations to simplify permissions management.
+- [Mitigating OAuth’s recently discovered Open Response Type vulnerability](https://clerk.com/blog/open-response-type-vulnerability): How Clerk mitigated the recently discovered Open Response Type vulnerability
+- [Per-user B2B monetization with Stripe and Clerk Organizations](https://clerk.com/blog/per-user-licensing-with-stripe-and-clerk-organizations): Learn how to architect a B2B application for per-user licensing with Stripe and Clerk Organizations
+- [Build a team-based task manager with Next.js, Neon, and Clerk](https://clerk.com/blog/build-a-team-based-task-manager-with-organizations): Use Clerk Organizations to build a task management app that isolates tasks to specific teams.
+- [Building a Hybrid Sign-Up/Subscribe Form with Stripe Elements](https://clerk.com/blog/building-a-hybrid-sign-up-and-subscribe-form-with-stripe): Using custom flows, webhooks, and user metadata, learn how to build a single form that automatically subscribes new users.
+- [Welcoming Colin from Zod as our inaugural Open Source Fellow](https://clerk.com/blog/zod-fellowship): Clerk is funding the development of Zod 4 with a new Open Source Fellowship program.
+- [Build a modern authenticated chat application with Next.js, Ably, and Clerk](https://clerk.com/blog/authenticated-next-chat-app-with-ably-and-clerk): Learn how to build a modern, authenticated chat application using Next.js, Ably, and Clerk. This comprehensive guide covers everything from setting up real-time messaging and user authentication to implementing roles and message history.
+- [Build a waitlist with Clerk user metadata](https://clerk.com/blog/build-a-waitlist-with-clerk-user-metadata): Learn how to use Clerk user metadata to build a waitlist for your application, as well as an admin dashboard to toggle user access.
+- [How to use Clerk with PostHog Identify in Next.js](https://clerk.com/blog/how-to-use-clerk-with-posthog-identify-in-nextjs): Learn how to configure your Next.js applications to send Clerk user data to PostHog for analytics and data analysis.
+- [How to secure API Gateway using JWT and Lambda Authorizers with Clerk](https://clerk.com/blog/how-to-secure-api-gateway-using-jwt-and-lambda-authorizers-with-clerk): Learn what API Gateway authorizers are, how they work, and how to use them with Clerk to secure your API endpoints using JWT and Lambda authorizers.
+- [What are passkeys and how do they work?](https://clerk.com/blog/what-are-passkeys): Passkeys allow for a simple, yet extremely secure, sign-in experience. Learn more about what they are and how they work in this article.
+- [Comparing Authentication in React.js vs. Next.js](https://clerk.com/blog/comparing-authentication-react-nextjs): We compare authentication in React.js and Next.js, emphasizing the ease of securing user data with Clerk.
+- [How to Add an Onboarding Flow for your Application with Clerk](https://clerk.com/blog/add-onboarding-flow-for-your-application-with-clerk): Leverage Clerk’s customizable session tokens, publicMetadata and Next’s Middleware to create a robust onboarding experience within a few lines of code.
+- [Create Your Own Custom User Menu with Radix - Part 2](https://clerk.com/blog/create-custom-user-menu-radix-pt-2): Extend your Radix powered custom User Menu to turn it into a Sign In or User Profile component
+- [Introducing Webhook Workflows with Inngest & Svix](https://clerk.com/blog/clerk-inngest-svix-webhooks): We are excited to announce that Clerk has teamed up with Inngest and Svix to integrate with external systems reliably.
+- [Clerk raises $30M Series B from CRV and Stripe](https://clerk.com/blog/series-b): New funding will accelerate expansion beyond authentication, into authorization
+- [Clerk in 2023: A Year in Review](https://clerk.com/blog/clerk-2023-year-review): Wow! We had an incredible year in 2023, here is a list of everything we shipped...
+- [Build a Movie Emoji Quiz App with Remix, Fauna, and Clerk](https://clerk.com/blog/build-movie-emoji-quiz-with-remix-fauna-and-clerk): Test the emoji game of all the movie buffs you know by building a Movie Emoji Quiz app with Remix, Fauna, and Clerk.
+- [Ultimate Guide to Magic Link Authentication](https://clerk.com/blog/magic-links): In this post, we discuss the benefits of email magic links, show examples of how they work, and explain why they meet the requirements for secure, passwordless authentication.
+- [Create Your Own Custom User Menu with Radix](https://clerk.com/blog/create-custom-user-menu-radix): Quickly and easily build a custom user menu for your application leveraging Clerk's hooks and methods and building on Radix primitives for a custom UI.
+- [Introducing has(), protect(), and <Protect>](https://clerk.com/blog/introducing-authorization): Authorization is now a core feature of Clerk – learn more about our new authorization helpers for B2B SaaS
+- [Updated Pricing: 10,000 MAUs Free, and a new “Pro Plan”](https://clerk.com/blog/new-pricing-plans): Introducing NEW pricing for Clerk – a Pro Plan with additional features, Pro Add-Ons to fit your application's use case, and 10,000 MAUs free on all plans
+- [Next.js Authentication with Clerk: Streamlined SSR Handling](https://clerk.com/blog/nextjs-auth-clerk-streamlined-ssr-efficiency): Discover streamlined Next.js authentication with Clerk, simplifying SSR for efficient user data handling in web development.
+- [Clerk Webhooks: Data Sync with Convex](https://clerk.com/blog/webhooks-data-sync-convex): This post covers how to synchronize user data from Clerk into a Convex database using Webhooks.
+- [Exploring Clerk Metadata with Stripe Webhooks](https://clerk.com/blog/exploring-clerk-metadata-stripe-webhooks): Utilize Clerk Metadata & Stripe Webhooks for efficient user data management and enhanced SaaS experiences with our step-by-step tutorial.
+- [The Ultimate Guide to Next.js Authentication](https://clerk.com/blog/nextjs-authentication): In this guide, you will learn best practices for implementing secure authentication in your Next.js app.
+- [Empower Your Support Team With User Impersonation](https://clerk.com/blog/empower-support-team-user-impersonation): User impersonation enables support teams to assist customers without compromising privacy and security, essential for delivering great CX.
+- [Clerk Webhooks: Getting Started](https://clerk.com/blog/webhooks-getting-started): Learn how to get started with Webhooks to build integrations in a Nextjs application with Clerk's fully-featured authentication.
+- [A Complete Guide to Session Management in Next.js](https://clerk.com/blog/complete-guide-session-management-nextjs): Session management allows users to stay logged in across multiple tabs devices and maintains security by tracking user sessions.
+- [The Advanced Guide to Passwordless Authentication in Next.js](https://clerk.com/blog/advanced-guide-passwordless-authentication-nextjs): Learn how to implement passwordless authentication in Next.js using magic links, social OAuth and SAML SSO.
+- [How We Roll – Chapter 10: Roundup](https://clerk.com/blog/how-we-roll-roundup): How We Roll is a deep dive into how Clerk implements authentication. This chapter provides a roundup of the topics discussed in this series.
+- [How We Roll – Chapter 9: Infrastructure](https://clerk.com/blog/how-we-roll-infrastructure): How We Roll is a deep dive into how Clerk implements authentication. This chapter covers the infrastructure that powers Clerk’s authentication capabilities.
+- [Password-Based Authentication in Next.js](https://clerk.com/blog/password-based-authentication-nextjs): This article explores password authentication, risks, and better solutions like SSO, MFA, and passwordless login.
+- [Exploring the Intricacies of OTP Authentication in Next.js](https://clerk.com/blog/otp-authentication-nextjs): Learn how one-time passwords work, best practices for using OTPs in authentication, and how to implement OTPs in Next.js.
+- [Build a Cookie Clicker App with Clerk and Hasura](https://clerk.com/blog/build-a-cookie-clicker-app-with-clerk-and-hasura): In this tutorial we will use Clerk with Hasura to build a full-stack Next.js app with a database and GraphQL API, all without having to write any backend code.
+- [RedwoodJS Blog Tutorial with Clerk](https://clerk.com/blog/redwoodjs-blog-tutorial-with-clerk): Branching off from the excellent (and mighty) Redwood tutorial, the guide will lead you through setting up Clerk as the authentication provider.
+- [How We Roll – Chapter 8: Sessions](https://clerk.com/blog/how-we-roll-sessions): How We Roll is a deep dive into how Clerk implements authentication. This chapter covers how Sessions unlock security and performance capabilities for Clerk.
+- [How We Roll – Chapter 7: JWT Single Sign-On](https://clerk.com/blog/how-we-roll-jwt-sso): How We Roll is a deep dive into how Clerk implements authentication. This chapter covers how Clerk integrates with BaaS providers with JWT SSO.
+- [Migrating from Pages Router to App Router: An Incremental Guide](https://clerk.com/blog/migrating-pages-router-to-app-router-an-incremental-guide): Already know the /pages directory? Here's a simple way to migrate to the /app directory in Next.js 13.
+- [Social SSO in Next.js](https://clerk.com/blog/social-sso-in-next-js): In this article, we explore how to incorporate OAuth SSO into a Next.js project with JSON Web Tokens (JWTs) and the new app router from Next.js.
+- [How We Roll – Chapter 6: User Profile](https://clerk.com/blog/how-we-roll-user-profile): How We Roll is a deep dive into how Clerk implements authentication. This chapter explores how we help developers ship a fully-featured account management UI.
+- [How to Authenticate API Requests with Clerk & Express](https://clerk.com/blog/how-to-authenticate-api-requests-with-clerk-express): In this tutorial, we'll explore how to use Clerk with Express to authenticate API requests using middleware.
+- [How We Roll – Chapter 5: Customization](https://clerk.com/blog/how-we-roll-customization): How We Roll is a deep dive into how Clerk implements authentication. This chapter covers the various ways developers can customize Clerk's UI components.
+- [How We Roll – Chapter 4: Email Verification](https://clerk.com/blog/how-we-roll-email-verification): How We Roll is a deep dive into how Clerk implements authentication. From codes to links to SSO, this chapter is about when and how we verify emails.
+- [Secure Authentication in Next.js with Email Magic Links](https://clerk.com/blog/secure-authentication-nextjs-email-magic-links): In this guide, you will learn how to implement email magic links in Next.js.
+- [How We Roll – Chapter 3: Multifactor](https://clerk.com/blog/how-we-roll-multifactor): How We Roll is a deep-dive into how Clerk implements authentication. This chapter is on something you know and something you have: multifactor authentication!
+- [Announcing A New Password Experience](https://clerk.com/blog/a-new-password-experience): The team has been focused on making a first in class experience for your end users when it comes to passwords. Let's talk about the new features we introduced. 
+- [How We Roll – Chapter 2: Avatars](https://clerk.com/blog/how-we-roll-avatars): How We Roll is a deep-dive into how Clerk implements authentication. In this chapter, we discuss why avatars should never be an afterthought.
+- [How We Roll – Chapter 1: Passwords](https://clerk.com/blog/how-we-roll-passwords): How We Roll is a deep-dive into how Clerk implements authentication. In this first chapter, we discuss passwords – the original form of authentication.
+- [Seamless Integration: How Clerk Streamlined OpusFlow's User Authentication](https://clerk.com/blog/opusflow): Learn how Clerk's user-friendly authentication system streamlined OpusFlow's SaaS integration, enhancing productivity and performance.
+- [Stable Support for the Next.js App Router, plus a Middleware Update!](https://clerk.com/blog/nextjs-13-4): App Router support is out of beta, plus we've launched a major middleware update.
+- [Generating and Using UUIDs in React](https://clerk.com/blog/generating-and-using-uuids-in-react): Learn the significance of UUIDs in full-stack apps, their optimal usage, and how to implement them in React apps.
+- [Setting and Using Cookies in React](https://clerk.com/blog/setting-and-using-cookies-in-react): Learn how to set up cookies in React with this guide! You'll create a login page and store user information using cookies.
+- [Adding JWT Authentication to React](https://clerk.com/blog/adding-jwt-authentication-to-react): Learn how to implement JSON Web Token (JWT) authentication in a React app using a standard flow, and how Clerk can make the process even easier.
+- [Understanding and Properly Using React Global State](https://clerk.com/blog/understanding-and-properly-using-react-global-state): Explore the benefits of global state and discover two methods to implement it: the React context API and the Clerk React context API component.
+- [Implementing reCAPTCHA in React](https://clerk.com/blog/implementing-recaptcha-in-react): Learn how to protect your React app from spam and abuse using reCAPTCHA. Follow this tutorial to create a sign-up form with reCAPTCHA validation.
+- [Implementing OAuth 2.0 to React for User Authorization](https://clerk.com/blog/oauth2-react-user-authorization): Learn how to implement OAuth 2.0 in a React app for user authorization. OAuth 2.0 lets users share information securely without passwords.
+- [Clerk raises $15m Series A led by Madrona](https://clerk.com/blog/series-a): Clerk surpasses a million managed users and taps into executive experience from Auth0 and Vercel
+- [Refactoring our frontend API key: Familiar DX is the best DX](https://clerk.com/blog/refactoring-our-api-keys): We switched to the familiar Publishable Key, but we changed less than you'd think
+- [Validating, Creating, and Styling React-Bootstrap Forms](https://clerk.com/blog/validate-create-style-react-bootstrap-forms): Create a complete login and sign-up flow with React Bootstrap forms, then learn how to use tools like Clerk to easily manage authentication and authorization.
+- [Adding Google Login to Your Next.js 13 Application](https://clerk.com/blog/add-google-login-next13-app): Compare adding Google Login to your Next.js 13 Application by building it yourself, with using a third-party service like Clerk.
+- [Guide to Conditional Rendering in React](https://clerk.com/blog/conditional-rendering-react): Learn how conditional rendering is used to show a personalized UI, complete a user flow without changing routes, or show a loading or error state.
+- [Next.js 13 Routes Part 2: Implementing Protected Routes](https://clerk.com/blog/next13-api-routes-2): Learn how to create protected routes using React Context as well as how using Clerk makes this process easier.
+- [Next.js 13 Routes Part 1: Getting Started with Next.js API Routes](https://clerk.com/blog/next13-api-routes-1): API routes in Next.js provide a solution to build server-side API logic.
+- [Clerk and Create T3 Turbo](https://clerk.com/blog/clerk-t3-turbo): This guide shows you how to integrate Clerk into T3-Turbo so you can have user management for everyone.
+- [Clerk raises $6.2m led by Andreessen Horowitz](https://clerk.com/blog/a16z-seed): Clerk is building the future of authentication for React, where the Component is the new API
+- [How to skip Next.js middleware for static and public files](https://clerk.com/blog/skip-nextjs-middleware-static-and-public-files): Stop your Next.js middleware from running on static assets like images and Next.js internals
+- [Let's stop arguing about JWTs and just fix them](https://clerk.com/blog/lets-stop-arguing-about-jwts-and-just-fix-them): JWTs have won. It's time we embrace them and fix the dangerous implementations.
+- [How to pass a value from Next.js middleware to API routes and getServerSideProps](https://clerk.com/blog/nextjs-pass-value-from-middleware-to-api-routes-and-getserversideprops): Compute a value in middleware and pass it to your API route or getServerSideProps. Works in both Node and Edge runtimes.
+- [@clerk/nextjs v4.5](https://clerk.com/blog/clerk-nextjs-4-5): New in 4.5: Authentication moves to middleware, switchable runtime support, improved developer experience, preparation for Layouts
+- [Passwordless Authentication: Which Option Is Right for Your App](https://clerk.com/blog/passwordless-authentication): Passwordless Authentication is on an upward trajectory thanks to advancements in this space and recent password breaches.
+- [What are Webhooks? The Ultimate Guide ](https://clerk.com/blog/what-are-webhooks): Webhooks allow apps to communicate with one another. Find out best practices and more here.
+- [What Is an SDK and How Is It Different From APIs?](https://clerk.com/blog/sdk-vs-api): While an SDK and an API often work together in the software development process, they each serve a different function. Find out what that is here.
+- [A ‹Component/› is worth a thousand APIs](https://clerk.com/blog/a-component-is-worth-a-thousand-apis): Clerk is the only authentication service that offers a User Profile component. It sounds incremental, but it's 10x more work – this post explains why
+- [User Management and How It Relates to Authentication](https://clerk.com/blog/user-management-in-authentication): User management assists in authenticating and storing users. Find out more about it here.
+- [Building a Custom User Profile with Clerk](https://clerk.com/blog/building-custom-user-profile-with-clerk): Authentication is one of the most critical functions of securing your applications; however, it's also one of the most challenging functions to implement.
+- [Build an App with Clerk, Prisma Cloud, and Next.js](https://clerk.com/blog/build-app-with-clerk-prisma-nextjs): Clerk is an easy-to-use, customizable, and secure customer identity platform that provides you with multiple authentication strategies for your application. 
+- [The Journey to Modern Web Authentication](https://clerk.com/blog/the-journey-to-modern-web-authentication): A blog post about the story of Clerk; our journey of bringing seamless authentication to the Modern Web, where we stand now, and what lies ahead.
+- [What is Next.js?](https://clerk.com/blog/what-is-nextjs): Next.js is a framework in the React ecosystem that is primarily used for developing JavaScript applications. Understand the ins and outs below.
+- [Clerk joins the Netlify Jamstack Innovation Fund](https://clerk.com/blog/clerk-joins-netlify-jamstack-innovation-fund): Clerk powers authentication for over 5,000 Jamstack teams – now we're working with Netlify to further our commitment to the ecosystem
+- [Authentication vs. Authorization: What's the Difference?](https://clerk.com/blog/authentication-vs-authorization): Understand the differences between authentication vs. authorization and the purpose they both serve.
+- [Refactoring Stripe's API for frontend access](https://clerk.com/blog/refactoring-stripes-api-for-frontend-access): We built `use-stripe-subscription` to make it easier for React developers to implement Stripe Billing
+- [Quickly Build a User Switcher, Just Like Gmail](https://clerk.com/blog/build-a-user-switcher-just-like-gmail): Build an app with complete authentication and a user switcher just like gmail has.
+- [The New Wave Stack](https://clerk.com/blog/new-wave-stack): A custom Remix stack with Clerk, Fauna, and Netlify.
+- [Three best practices for building React REST SDKs](https://clerk.com/blog/best-practices-for-building-react-rest-sdks): For optimal developer experience, React SDKs require completely different patterns than Node
+- [Next.js SSR authentication with Clerk](https://clerk.com/blog/next-js-ssr-authentication-with-clerk): Next.js SSR authentication is easy with Clerk – just a few lines of code to get started.
+- [How to skip CORS preflights and speed up your API with polyfills](https://clerk.com/blog/skip-cors-options-preflight): CORS preflights add unnecessary latency to requests. Learn to use "simple" requests to skip the preflight entirely.
+- [The future of authentication is both stateful and stateless](https://clerk.com/blog/future-of-auth-stateless-and-stateful): Stateful authentication is more secure. Stateless authentication is faster. A hybrid approach delivers the best of both worlds.
+- [It's the little things: Three developer experience delights of our Remix authentication package](https://clerk.com/blog/remix-delightful-developer-experiences): We integrate with a lot of React frameworks - here's what we love most about our Remix authentication package
+- [Unicorn or Chameleon? Two strategies for exporting customizable React components](https://clerk.com/blog/exporting-customizable-react-components): React Components are the future of APIs – but how can developer tools companies enable robust customization? We explore two strategies.
+- [Just-in-time API requests are replacing webhooks](https://clerk.com/blog/just-in-time-api-requests-are-replacing-webhooks): Only 30% of Clerk customers use webhooks to sync user data into their own database. Instead, most skip syncing and use our APIs to retrieve data in real-time.
+- [Introducing Web3 Authentication](https://clerk.com/blog/introducing-web3-authentication): Clerk is saving Web3 developers from the greatest evils of the Web2 platform: cookies, multifactor authentication, and profile enrichment
+- [How to compete and WIN in a software economy [Part 2]](https://clerk.com/blog/how-to-complete-and-win-in-software-economy-2): In this next part, we'll discuss how to identify 'core' vs. 'non-core' development & how thoughtful outsourcing can be used to develop process power.
+- [How to compete and WIN in a software economy [Part 1]](https://clerk.com/blog/how-to-complete-and-win-in-software-economy): Software has eaten the world and almost every business is a software business. How do you develop a competitive advantage and win in today's software economy?
+- [The Ultimate Guide To JSON Web Tokens (JWTs) and Token-Based Authentication](https://clerk.com/blog/guide-JWT-authentication-JSON-Web-Tokens): JSON Web Tokens, more commonly known as JWTs, are encoded and cryptographically signed data that allows for the secure transfer of information.
+- [2021: The Year Authentication Saw a Resurgence (and Why)](https://clerk.com/blog/2021-the-resurgence-of-authentication): Authentication saw a resurgence as developers demanded better tools for Modern Web frameworks like Next.js, and users demanded easier sign-in options
+- [Consider dropping your users table](https://clerk.com/blog/offload_user_table): The same way we would rather let Stripe handle your credit card, we'll let Clerk handle your phone numbers, emails and sessions.
+- [Trading Experts | Case Study](https://clerk.com/blog/trading-experts): A case study of how Trading Experts used Clerk to quickly implement the authentication and user management features they needed.
+- [Clerk is hiring a senior frontend team to expand our full-stack component library](https://clerk.com/blog/hiring-frontend-full-stack-components): Seeking experts in CSS, browser APIs, JS bundling, React, react-native, Swift, Kotlin and Developer Experience
+- [The Ultimate Guide to BCrypt and Authentication Protocols](https://clerk.com/blog/bcrypt-hashing-authentication-encryption): Learn why bcrypt is the industry standard hashing algorithm for authentication - including its history and how it compares to other protocols. 
+- [History and Rise of "Passwordless"](https://clerk.com/blog/passwordless-history-popularity): Learn the history of passwordless, and how it became popularized. From OTPs to MFA to mobile.
+- [Session management: What it is and why your security depends on it](https://clerk.com/blog/what-is-session-management): Learn about session management, its components, and security concerns.  
+- [Don’t underestimate the value of a secure, seamless ‘forgot password’ flow](https://clerk.com/blog/forgot-password-sspr): Learn about “forgot password” flows, how they work, and the best practices to keep in mind.
+
+- [Add authentication to your Gatsby app](https://clerk.com/blog/add-authentication-to-your-gatsby-app): Learn how to add authentication and user management to your Gatsby app with Clerk. 
+- [Authenticated data access using Clerk, Prisma, and MongoDB - A post-making fullstack app](https://clerk.com/blog/clerk-prisma-mongodb-fullstack-post-app): Add a complete authentication workflow with authenticated access to your Prisma API layer to your web application.
+- [Generating sortable Stripe-like IDs with Segment's KSUIDs](https://clerk.com/blog/generating-sortable-stripe-like-ids-with-segment-ksuids): Learn how Clerk generates resource IDs with inspiration from Stripe and Segment.
+- [Serverless authentication with Clerk and Firebase](https://clerk.com/blog/serverless-auth-with-clerk-and-firebase): Protect your Firebase Cloud Functions with user authentication using Clerk.
+- [Row-level access for your Airtable-powered application with Clerk](https://clerk.com/blog/row-level-access-for-your-airtable-powered-application): Learn how to add complete user authenticated access to your Airtable data API using Clerk.
+- [Build a premium recipes app with Clerk and Firebase](https://clerk.com/blog/build-a-premium-recipes-app-clerk-firebase): Learn how to connect Clerk as an authentication and user management solution together with your Firebase as your backend.
+- [Clerk raises $4 million to build the next-gen authentication and user management platform for developers](https://clerk.com/blog/clerk-raises-for-next-gen-auth): Clerk raised a $4 million seed round led by S28 capital with Andrew Miklas (cofounder, PagerDuty) joining our board.
+- [Designing fast sign in forms— diving into the data](https://clerk.com/blog/designing-fast-sign-in-forms): Key insights on building fast sign in forms with Social Sign In, password-based, and passwordless authentication.
+- [Build or Buy? A Look at User Management with Next.js: Part 1](https://clerk.com/blog/build-or-buy-user-management-with-nextjs-1): In this article, you'll learn the pros and cons of developing or buying a user management system so you’re ready to make the right choice for your project.
+- [How we use End To End tests to bulletproof our authentication flows across browsers](https://clerk.com/blog/how-we-use-end-to-end-tests-to-bulletproof-our-authentication-flows-across-browsers): Due to the evolution of tooling and the shift towards high-velocity product development, End To End testing is a regular topic of discussion for small teams.
+- [Build a to-do app with Clerk and Hasura— and no backend code](https://clerk.com/blog/build-a-to-do-app-with-clerk-and-hasura-and-no-backend-code): Learn to build a to-do app using Clerk for authentication, Hasura for data storage and access, and Next.js for the frontend.
+- [How HttpOnly cookies help mitigate XSS attacks](https://clerk.com/blog/how-httponly-cookies-help-mitigate-xss-attacks): HttpOnly cookies do not prevent cross-site scripting (XSS) attacks, but they do lessen the impact and prevent the need to sign out users after the XSS is patched. HttpOnly cookies are not a substitute for XSS prevention measures.
+- [How to deploy Clerk using Vercel with one click](https://clerk.com/blog/clerk-vercel-one-click-deployment): If you are looking to implement Auth in the easiest way possible, this is the tutorial for you. Deploy in 5 minutes.
+- [Introducing Clerk: All of user management, not just authentication](https://clerk.com/blog/all-of-user-management-not-just-authentication): The task came with a sense of helplessness. We knew what "great" looked like, but it was impractical to build all of that functionality.
+
+## Articles
+
+- [Essential user management features for startups in 2025](https://clerk.com/articles/essential-user-management-features-startups): Compare authentication platforms for startups in 2025: Clerk, Auth0, Firebase, AWS Cognito. Learn which user management features matter at each growth stage.
+- [The Complete Guide to Embeddable UIs for User Management in 2025](https://clerk.com/articles/complete-guide-to-embeddable-uis-for-user-management): Compare embeddable UIs for user management in 2025: Clerk, Auth0, WorkOS, Supabase & Firebase. Complete guide covering React, Next.js, setup time & pricing.
+- [Best User Management APIs for Developers: 2025 Comprehensive Guide](https://clerk.com/articles/best-user-management-apis-for-developers): Compare the best user management APIs for developers in 2025. In-depth analysis of Clerk, Auth0, Firebase, and Cognito for React and Next.js applications.
+- [User Management Platform Comparison for React: Clerk vs Auth0 vs Firebase (2025)](https://clerk.com/articles/user-management-platform-comparison-react-clerk-auth0-firebase): Compare Clerk, Auth0, and Firebase for React user management. See setup times (5-15 min vs weeks), pricing, RBAC features, and which fits your B2B SaaS in 2025.
+- [The Complete Guide to Authentication Tools for Next.js Applications (2025)](https://clerk.com/articles/authentication-tools-for-nextjs): Compare Next.js authentication tools: Clerk (7-min setup), NextAuth.js, Supabase, Auth0. Implementation guides, security patterns, pricing & recommendations.
+- [Complete Authentication Guide for Next.js App Router in 2025](https://clerk.com/articles/complete-authentication-guide-for-nextjs-app-router): Master Next.js App Router authentication in 2025. Compare Clerk, NextAuth.js, Supabase Auth performance & security. Fix CVE-2025-29927 vulnerability. 30-minute setup guide with React Server Components patterns.
+- [Clerk vs Auth0 for Next.js: The Definitive Technical Comparison](https://clerk.com/articles/clerk-vs-auth0-for-nextjs): Clerk vs Auth0 for Next.js: Compare setup time, pricing, performance, and Next.js 15 support. Technical analysis with code examples and cost breakdowns
+- [Next.js Authentication for AI Applications: Complete Security Guide 2025](https://clerk.com/articles/nextjs-authentication-for-ai-apps-security-guide): Learn how to secure Next.js AI applications against CVE-2025-29927, prompt injection, and MCP vulnerabilities. Complete authentication guide with Clerk implementation, code examples, and enterprise patterns. Setup in 7 minutes vs 3-6 weeks custom build.
+- [Organizations and role-based access control in Next.js](https://clerk.com/articles/organizations-and-role-based-access-control-in-nextjs): Learn how to implement secure role-based access control (RBAC) and multi-tenant organizations in Next.js applications. Compare Clerk, Auth0, Supabase, and custom solutions with code examples, security best practices, and CVE-2025-29927 mitigation strategies for production-ready B2B SaaS.
+- [Building Scalable Authentication in Next.js: Complete 2025 Developer Guide](https://clerk.com/articles/building-scalable-authentication-in-nextjs): Learn how to build scalable Next.js authentication that handles millions of users. Solve database connection limits, edge runtime issues, session management, and multi-tenancy challenges with practical solutions and provider comparisons.
+- [8 SSO Best Practices for Secure, Scalable Logins in 2025: Developer Implementation Guide](https://clerk.com/articles/sso-best-practices-for-secure-scalable-logins): Learn 8 critical SSO best practices for 2025: JWT validation, session management, protocol selection, and automated provisioning. Comprehensive guide comparing Clerk, Auth0, and Okta with secure code examples for React/Next.js developers.
+- [Password vs Passwordless Authentication: The Complete Technical Guide for 2025](https://clerk.com/articles/password-vs-passwordless-authentication-guide): Learn the complete technical guide to password vs passwordless authentication in 2025. Compare security, costs, and implementation for WebAuthn, FIDO2, and passkeys with expert analysis and code examples.
+- [How to Implement Social Sign-On in Your Application: The Complete 2025 Developer's Guide](https://clerk.com/articles/how-to-implement-social-sign-on): Learn how to implement social sign-on in 2025 with OAuth 2.0 Security BCP (RFC 9700), PKCE security, and provider integrations. Complete guide with code examples for Google, Facebook, GitHub.
+- [Multi-Tenancy in React Applications: Complete Implementation Guide with Clerk](https://clerk.com/articles/multi-tenancy-in-react-applications-guide): Learn how to implement secure multi-tenancy in React applications with comprehensive comparisons of Clerk, Auth0, and AWS Cognito. Discover why Clerk reduces implementation time from 30+ person-months to under a week while preventing all 15 OWASP authentication vulnerabilities automatically. Includes step-by-step code examples, security best practices, and cost analysis for modern React developers building SaaS applications.
+- [Authentication Security in Web Applications: A Comprehensive Guide for Developers](https://clerk.com/articles/authentication-security-in-web-applications): Learn how to fix 15 critical authentication vulnerabilities in 2025. Practical code examples, OWASP guidance, and platform comparisons to prevent breaches.
+
+## Changelog
+
+- [API Keys Public Beta](https://clerk.com/changelog/2025-12-11-api-keys-public-beta): Allow your users to create API keys that delegate access to your application's API on their behalf.
+- [Prebuilt Android Components](https://clerk.com/changelog/2025-12-10-android-ui-components): Ready-to-use authentication views for Android apps.
+- [Debug logs for enterprise connections](https://clerk.com/changelog/2025-12-08-debug-logs-for-enterprise-connections): Debug logs for enterprise connections are now available in the Dashboard, making it easier to diagnose and resolve IdP configuration issues.
+- [Vercel SSO Provider](https://clerk.com/changelog/2025-12-04-vercel-sso-provider): Enable users to sign in to your application using their Vercel accounts.
+- [Enable organizations from your app during development](https://clerk.com/changelog/2025-11-24-enable-organizations-prompt): You can now enable Organizations directly in your app during development, without navigating to the Clerk Dashboard.
+- [Manage organization roles and permissions through Clerk's API](https://clerk.com/changelog/2025-11-24-organization-roles-and-permission-bapi-management): Build custom role based access control (RBAC) systems by managing organization roles and permissions via an API.
+- [Use existing Stripe account for Clerk Billing](https://clerk.com/changelog/2025-11-14-clerk-billing-existing-stripe-accounts): Clerk Billing now supports linking an existing Stripe account.
+- [Introducing Client Trust: Clerk’s free credential stuffing killer](https://clerk.com/changelog/2025-11-14-client-trust-credential-stuffing-killer): 
+- [Update billing plan prices](https://clerk.com/changelog/2025-11-13-billing-plan-price-updates): You can now update billing plan prices even when the plan has active paid subscriptions.
+- [Native Sign in with Apple for Expo](https://clerk.com/changelog/2025-11-13-native-sign-in-with-apple-expo): The Clerk Expo SDK now supports native Sign in with Apple, providing a seamless authentication experience for iOS users.
+- [PKCE support for custom OAuth providers](https://clerk.com/changelog/2025-11-12-pkce-support-custom-oauth): Custom OIDC providers and custom social connections now support PKCE for enhanced security in native and mobile applications.
+- [API Version 2025-11-10](https://clerk.com/changelog/2025-11-10-billing-new-api-version): New API Version available with Clerk Billing updates
+- [Filter growth charts by churned users and organizations](https://clerk.com/changelog/2025-11-07-overview-analytics-filter-by-growth-or-churn): You can now view churned cohorts in your growth charts by selecting the negative segment of your growth chart. Just hover over or click the negative segment of your growth chart for any period to see a cohort of churned users or organizations.
+- [Command menu](https://clerk.com/changelog/2025-11-06-command-menu): Navigate the Clerk Dashboard with just a few keystrokes, search the docs, switch workspaces, applications, or instances, and let AI guide you wherever you need to go.
+- [Start free trials without payment methods](https://clerk.com/changelog/2025-10-30-start-free-trials-without-payment-methods): Free trials just got more flexible! You can now choose whether users need to provide a payment method before starting their trial.
+- [Organization Growth Analytics](https://clerk.com/changelog/2025-10-29-organization-growth): Track your organization metrics with the same depth as user analytics
+- [LLM Leaderboard](https://clerk.com/changelog/2025-10-28-llm-leaderboard): See how different LLMs perform at writing Clerk-specific code
+- [M2M Tokens General Availability](https://clerk.com/changelog/2025-10-14-m2m-ga): M2M tokens are now generally available, providing stable, production-grade authentication between your backend services.
+- [Infra Changelog - Oct 9, 2025](https://clerk.com/changelog/2025-10-09-infra-changelog): Database migration, high-update to append-only, direct job queuing, and more
+- [Clerk Leap Integration](https://clerk.com/changelog/2025-10-08-clerk-leap-integration): Introducing Clerk's integration with the AI developer agent, Leap.
+- [Organization slugs disabled by default](https://clerk.com/changelog/2025-10-07-enable-organization-slugs): Organization slugs are now disabled by default for new applications.
+- [Infra Changelog - Sep 25, 2025](https://clerk.com/changelog/2025-09-25-infra-changelog): Isolated compute for session API, database tuning, and more
+- [SAML ForceAuthn](https://clerk.com/changelog/2025-09-23-saml-forceauthn): Clerk now supports configuring the ForceAuthn parameter on SAML authentication requests.
+- [Last-used sign-in method badge](https://clerk.com/changelog/2025-09-12-last-used-sign-in): Users can now easily identify their last-used sign-in method with a visual badge indicator.
+- [Android SDK General Availability](https://clerk.com/changelog/2025-09-11-android-sdk-ga): The Clerk Android SDK has reached general availability, delivering production-ready authentication and user management for native Android applications.
+- [Fetch user subscription](https://clerk.com/changelog/2025-09-03-billing-bapi-user-subscription): Fetch a user's subscription from the Backend API
+- [Free trials for subscriptions](https://clerk.com/changelog/2025-09-02-free-trials): The easiest way to not charge your customers.
+- [Sign-in with Base](https://clerk.com/changelog/2025-08-29-base-authentication): Enable users to sign-in to your application using their Base accounts, Coinbase's Layer 2 blockchain
+- [Fetch organization subscription](https://clerk.com/changelog/2025-08-28-billing-bapi-org-subscription): Fetch an organization's subscription from the Backend API
+- ["Personal Accounts" disabled by default](https://clerk.com/changelog/2025-08-22-personal-accounts-disabled): B2B applications can now enforce organization membership much more easily
+- [User cohorts in growth charts](https://clerk.com/changelog/2025-08-20-dashboard-user-cohorts): Trace growth metrics all the way down to the user
+- [Production Testing Tokens](https://clerk.com/changelog/2025-08-19-production-testing-tokens): Testing Tokens are now supported in production environments
+- [M2M Tokens Public Beta](https://clerk.com/changelog/2025-08-15-m2m-beta): We're excited to announce that M2M tokens are now available in public beta, bringing secure authentication for communication between your backend services.
+- [shadcn/ui registry support](https://clerk.com/changelog/2025-08-13-shadcn-registry): Get started with Clerk authentication in Next.js apps using the shadcn/ui CLI
+- [Enabled ability to fetch billing plans](https://clerk.com/changelog/2025-08-11-billing-bapi-plans): Enabled ability to fetch a list of billing plans
+- [Changes to allowlist and blocklist on sign in](https://clerk.com/changelog/2025-08-08-allowlist-blocklist-on-sign-in): 
+- [Android SDK Beta](https://clerk.com/changelog/2025-08-07-android-sdk-beta): Our new Android SDK is here to ensure that your users enjoy a smooth, integrated sign-in experience, on any Android device.
+- [Prebuilt iOS Views](https://clerk.com/changelog/2025-08-07-ios-components): Ready-to-use authentication views for iOS apps.
+- [Verified domains in Dashboard and in Backend API](https://clerk.com/changelog/2025-08-07-verified-domains-dashboard-backend-api): Verified domains are now accessible through both the Clerk Dashboard and the Backend API
+- [Protection against user enumeration](https://clerk.com/changelog/2025-08-07-enumeration-protections): Opt in to enhanced protection against user enumeration attacks in the Dashboard
+- [Build custom flows with React and Clerk Billing](https://clerk.com/changelog/2025-08-06-billing-apis-custom-flows): Five new React hooks that give developers complete control over building custom billing experiences, from plan selection to checkout completion.
+- [Organization permissions are now unlimited](https://clerk.com/changelog/2025-08-06-remove-permission-limits): Create unlimited permissions within organizations for enhanced flexibility and control over resource access.
+- [Improved resilience with automatic regional failover](https://clerk.com/changelog/2025-08-04-regional-failover): Automatic regional failover now protects Clerk from major infrastructure disruptions
+- [MCP Server Support for Express](https://clerk.com/changelog/2025-07-29-express-mcp): Build an MCP service into your application with Clerk and Express.js in 5 minutes
+- [New simple theme for easier customization](https://clerk.com/changelog/2025-07-29-theme-simple): A minimal theme with stripped-down styling that provides a clean foundation for custom designs.
+- [End billing subscriptions immediately with the new End button](https://clerk.com/changelog/2025-07-23-end-subscription-button): Immediately terminate subscriptions and revoke feature access with the new End button in the Dashboard
+- [Workspace level settings in the Dashboard](https://clerk.com/changelog/2025-07-25-workspace-level-settings-dashboard): A new place to manage your workspace level settings
+- [Button components for Clerk Billing](https://clerk.com/changelog/2025-07-24-billing-buttons): Three new billing buttons for implementing checkout, plan details, and subscription management in your applications.
+- [shadcn/ui theme compatibility](https://clerk.com/changelog/2025-07-23-shadcn-theme): Introducing a new Clerk theme based on `shadcn/ui` that styles Clerk's components according to your shadcn/ui theme.
+- [Dark Mode for the Clerk Dashboard](https://clerk.com/changelog/2025-07-22-dashboard-dark-mode): It's the Clerk Dashboard but darker.
+- [Clerk CSS variables support](https://clerk.com/changelog/2025-07-15-clerk-css-variables-support): Clerk now supports theming via Clerk CSS variables.
+- [Clerk is now available on the Vercel Marketplace](https://clerk.com/changelog/2025-07-14-vercel-marketplace-integration): Configure and integrate Clerk directly through the Vercel Marketplace.
+- [Organization Invitation Sorting](https://clerk.com/changelog/2025-07-11-org-invitation-sorting): 
+- [Introducing top-level Features. Plus redesigned Roles & Permissions](https://clerk.com/changelog/2025-07-10-top-level-features-plus-roles-and-permissions): Model your app's features right inside of Clerk
+- [New dashboard users now onboarded as organizations](https://clerk.com/changelog/2025-07-10-new-account-structure): Dashboard accounts now start as an organization, as opposed to Personal accounts.
+- [CVE-2025-53548](https://clerk.com/changelog/2025-07-09-cve-2025-53548): 
+- [CSS variables support](https://clerk.com/changelog/2025-07-08-css-variables-support): Clerk's appearance system now supports CSS variables for seamless design system integration and dynamic theming
+- [Increased Backend Rate Limits](https://clerk.com/changelog/2025-07-03-bapi-rate-limits): 
+- [Billing Webhooks](https://clerk.com/changelog/2025-07-02-billing-webhooks): Billing webhooks are now available.
+- [MCP Server Support for Next.js](https://clerk.com/changelog/2025-06-25-mcp-server-nextjs): Build an MCP service into your application with Clerk and Next.js in 5 minutes
+- [Multiple domains for enterprise SSO connections](https://clerk.com/changelog/2025-06-25-multiple-domains-sso): Enterprise SSO connections now support multiple domains, making it easier to manage authentication across different subdomains and domains within your organization.
+- [Tailwind CSS v4 support](https://clerk.com/changelog/2025-06-17-css-layer-name): Introducing the `cssLayerName` option for compatibility with Tailwind CSS v4, allowing Clerk styles to be wrapped in a dedicated CSS cascade layer.
+- [OAuth Provider Improvements](https://clerk.com/changelog/2025-06-13-oauth-improvements): Expanded OAuth functionality that paves the way for MCP support
+- [Billing MRR Report](https://clerk.com/changelog/2025-06-11-billing-mrr-report): View Monthly Recurring Revenue trends with a new interactive chart.
+- [Improved Invoices](https://clerk.com/changelog/2025-06-09-improved-invoices): We've improved the invoice format to make things easier to read.
+- [Subscription Payments](https://clerk.com/changelog/2025-06-06-payment-history): View all subscription payment attempts directly from the Dashboard.
+- [All Time Sign-up Count in Dashboard](https://clerk.com/changelog/2025-06-03-all-time-users-report): A new report on the dashboard shows the all time sign-ups for your application.
+- [Redesigned Dashboard Overview](https://clerk.com/changelog/2025-05-28-redesigned-dashboard-overview): We're launching a fresh new look for the dashboard overview, making it easier to monitor what matters.
+- [Global support for Clerk Billing](https://clerk.com/changelog/2025-05-13-billing-global-support): We're excited to announce that Clerk Billing now supports international Stripe accounts.
+- [Session Token JWT v2](https://clerk.com/changelog/2025-04-14-session-token-jwt-v2): Announcing the release of Session Token JWT v2, featuring a more compact and structured claim format.
+- [Supabase Third-Party Auth Integration](https://clerk.com/changelog/2025-03-31-supabase-integration): Integrate Clerk with Supabase as a third-party authentication provider.
+- [Reverification](https://clerk.com/changelog/2025-03-31-reverification): Protect sensitive actions by prompting users to reverify their identity.
+- [Flutter SDK Public Beta](https://clerk.com/changelog/2025-03-26-flutter-sdk-beta): We're excited to announce the beta release of our official Flutter SDK, bringing Clerk's powerful authentication and user management capabilities to Flutter applications.
+- [Automatic emails to users signing in with an unrecognized devices](https://clerk.com/changelog/2025-03-20-sign-in-emails): Introducing a new email template when your users sign-in with an unrecognized device
+- [Introducing @clerk/agent-toolkit](https://clerk.com/changelog/2025-03-7-clerk-agent-toolkit): Add Clerk to your agentic workflows with our new agent toolkit.
+- [Clerk as an OpenID Connect provider](https://clerk.com/changelog/2025-02-13-clerk-oidc): Use your Clerk instance as an OpenID Connect provider (OIDC).
+- [Passkeys support for Expo](https://clerk.com/changelog/2025-02-10-expo-passkeys): Enable seamless, passwordless authentication in your Expo apps with Passkeys.
+- [SAML Native Flows](https://clerk.com/changelog/2025-02-05-saml-native): Introducing SAML Native Flows for Expo and iOS SDKs, enabling secure enterprise authentication directly within your mobile apps
+- [Ruby Backend SDK 4.0](https://clerk.com/changelog/2025-01-30-ruby-sdk-4): With expanded support for Rails, Rails API, Sinatra, Rack and more
+- [Member search added to <OrganizationProfile />](https://clerk.com/changelog/2025-01-28-search-on-org-profile): Easily find organization members on `<OrganizationProfile />` by searching for any information related to them.
+- [Stable release of React Router SDK](https://clerk.com/changelog/2025-01-23): The React Router SDK is no longer in beta.
+- [Combined sign-in-or-up](https://clerk.com/changelog/2025-01-16-sign-in-or-up): Start collecting sign-in and sign-ups within a single flow.
+- [End of Support for Node SDK](https://clerk.com/changelog/2025-01-10-node-sdk-eol): Completing transition period for Clerk Node SDK
+- [C# Backend SDK](https://clerk.com/changelog/2025-01-09-csharp-sdk): We've released a new backend SDK for C#! Here's a quick overview of its capabilities and some resources to help you get started.
+- [Official SDK for Vue and Nuxt](https://clerk.com/changelog/2025-01-07-vue-and-nuxt-sdk): A community SDK gets its graduation day 🎓
+- [URL-based active organization sync](https://clerk.com/changelog/2024-12-20-sync-org-with-url): Use an organization slug in your application URL to automatically set the active Clerk organization.
+- [Enterprise Connections for Organizations](https://clerk.com/changelog/2024-12-18-sso-per-org): Link Organizations to SSO Connections, allowing users to authenticate with their IdP and join organizations seamlessly.
+- [Improved offline support for Expo](https://clerk.com/changelog/2024-12-12-expo-offline-support): A better experience for your Expo apps.
+- [React Router SDK Beta](https://clerk.com/changelog/2024-12-12-react-router-beta): Add authentication and authorization to your React Router application in minutes with this new Clerk SDK.
+- [Enterprise Connections for Custom OAuth Providers](https://clerk.com/changelog/2024-12-11-custom-oauth-ent-connections): Configure enterprise single sign-on through any custom OAuth provider
+- [Reverification: Public Beta](https://clerk.com/changelog/2024-12-02-reverification-beta): Reverification protects sensitive actions by prompting users to confirm their identity when needed.
+- [Chrome Extension SDK 2.0](https://clerk.com/changelog/2024-11-22-chrome-extension-sdk-2.0): We've released version 2.0 of the Chrome Extension SDK. Learn about the SDK's new features and get started building your Chrome Extension today.
+- [EASIE Support and no more SSO fees](https://clerk.com/changelog/2024-11-20-easie): This easiest way for enterprises to adopt full-featured SSO.
+- [Waitlist mode](https://clerk.com/changelog/2024-11-20-waitlist-sign-up-mode): Get your product launch off to a smooth start with Waitlist Sign-up mode.
+- [Legal consent](https://clerk.com/changelog/2024-11-11-legal-consent): Customize your Sign Up with a Terms of Service and Privacy Policy checkbox.
+- [Export your users directly from the Dashboard](https://clerk.com/changelog/2024-10-23-export-users): Export your users whenever you need to. They're yours, after all.
+- [@clerk/nextjs v6](https://clerk.com/changelog/2024-10-22-clerk-nextjs-v6): Introducing `@clerk/nextjs` v6, with support for Next.js 15.
+- [Fastify SDK 2.0](https://clerk.com/changelog/2024-10-10-fastify-v5-support): Introducing Clerk's Fastify SDK 2.0 with support for Fastify v5
+- [Express SDK](https://clerk.com/changelog/2024-10-08-express-sdk): Add authentication and authorization to your Express application in minutes with the new Clerk SDK
+- [Python Backend SDK](https://clerk.com/changelog/2024-10-08-python-backend-sdk-beta): We've released a new backend SDK for Python! Here's a quick overview of its capabilities and some resources to help you get started.
+- [Consolidating SSO Connections in the Dashboard](https://clerk.com/changelog/2024-10-03-sso-connections-page): A more intuitive way to add SSO Connections.
+- [Clerk + Coinbase Developer Platform: Advancing tools for the Web3 ecosystem](https://clerk.com/changelog/2024-10-01-coinbase-smart-wallet): Improve your Web3 application development experience using Clerk and Coinbase
+- [Disable additional identifiers for users who sign-in with Enterprise connections](https://clerk.com/changelog/2024-09-30-disable-additional-accounts-for-saml): More granular control for your users who sign-in via Enterprise Connections.
+- [Say goodbye to unwanted sign-ups with Restricted mode](https://clerk.com/changelog/2024-09-30-restricted-sign-up-mode): Introducing sign-up modes, starting with Restricted mode. Take control of who can join your app and prevent unexpected sign-ups.
+- [TanStack Start SDK Beta](https://clerk.com/changelog/2024-09-11-tanstack-start-beta): Add authentication and authorization to your TanStack Start application in minutes with the new Clerk SDK.
+- [Host multiple Clerk apps on the same domain](https://clerk.com/changelog/2024-09-09-multiple-apps-same-domain): We are thrilled to introduce a highly anticipated feature that allows multiple applications to be hosted under the same domain.
+- [Hugging Face SSO Provider](https://clerk.com/changelog/2024-08-29-huggingface-oauth-provider): Enable users to sign in to your application using their Hugging Face accounts.
+- [Local Credentials in Expo](https://clerk.com/changelog/2024-08-21-expo-local-credentials): Use biometric authentication for returning users in your Expo application.
+- [Add any social sign-in option with Custom Providers](https://clerk.com/changelog/2024-08-20-custom-oauth-providers): Instantly add and configure any OpenID Connect (OIDC) compliant OAuth provider
+- [iOS SDK Beta](https://clerk.com/changelog/2024-08-19-ios-sdk-beta): Our new iOS SDK is here to ensure that your users enjoy a smooth, integrated sign-in experience, whether they're on an iPhone, iPad, or any other Apple device.
+- [Limit how many organizations users can create](https://clerk.com/changelog/2024-08-13-limit-org-creation): More granular control over organization creation limits
+- [Add custom menu items to <UserButton />](https://clerk.com/changelog/2024-08-06-userbutton-custom-menu-items): With our latest release, you can now add custom menu items to `<UserButton />` component.
+- [Set Active Organization by Slug](https://clerk.com/changelog/2024-08-02-set-active-by-slug): It is now possible to set an active organization by URL slug, making it easier to use the URL as the source of truth for the active organization.
+- [Cognito password migrator](https://clerk.com/changelog/2024-08-02): Seamlessly migrate AWS Cognito user passwords into Clerk
+- [Development Mode UI Changes](https://clerk.com/changelog/2024-08-02-dev-notice): 
+- [Notice: Plans to EOL Gatsby SDK](https://clerk.com/changelog/2024-08-01-gatsby-eol): Initiating transition period for Clerk's official Gatsby SDK
+- [Clerk Expo v2](https://clerk.com/changelog/2024-07-26-clerk-expo-v2): Introducing Clerk Expo SDK v2 with support for Expo Web
+- [Passkeys are now Generally Available](https://clerk.com/changelog/2024-07-24-passkeys-ga): Passkeys are now generally available for all Clerk users
+- [Improved support for Cypress testing](https://clerk.com/changelog/2024-07-24-improved-cypress-support): Enhanced end-to-end testing with Clerk using Cypress
+- [Official SDK for Astro](https://clerk.com/changelog/2024-07-18-clerk-astro): Our community SDK is all grown up 🧑‍🚀
+- [Remix SPA mode](https://clerk.com/changelog/2024-07-17-remix-spa-mode): @clerk/remix now supports Remix SPA Mode
+- [Next.js Dynamic Keys](https://clerk.com/changelog/2024-07-16-dynamic-keys): Keys and options passed to `clerkMiddleware()` at runtime are available in Clerk’s server-side helpers.
+- [Google One Tap](https://clerk.com/changelog/2024-06-25-google-one-tap): Introducing support for Google One Tap for seamless, one-click user sign-ins and sign-ups!
+- [Clerk Elements (Beta)](https://clerk.com/changelog/2024-05-02-elements-beta): Introducing Clerk Elements, a new set of unstyled UI primitives that make it easy to build completely custom user interfaces on top of Clerk's API.
+- [Testing Tokens](https://clerk.com/changelog/2024-04-24-testing-tokens): Unlocking end-to-end testing in Clerk applications
+- [Passkeys in Beta](https://clerk.com/changelog/2024-04-22): Passkeys are a simple-to-use and secure passwordless way to authenticate your users. Now available for your applications in Beta.
+- [Clerk Core 2 is now Generally Available](https://clerk.com/changelog/2024-04-19): Our latest major release (Core 2) is now Generally Available. Enjoy the new foundation of Clerk - featuring refreshed UI components, improved middleware helpers, and enhanced overall performance.
+- [Visual Captcha for Bot Protection](https://clerk.com/changelog/2024-04-19-visual-captcha): Fight bot detection false positives by showing a visual captcha challenge
+- [IdP-initiated SSO & SAML is Generally Available](https://clerk.com/changelog/2024-04-01): SAML Enterprise Connections are now GA and we've added IdP Initiated SSO
+- [Community SDK support for Astro](https://clerk.com/changelog/2024-03-28): You can now secure your Astro website with Clerk!
+- [Introducing Clerk Core 2 Beta](https://clerk.com/changelog/2024-02-29-core-2): Our latest beta release ships with an improved design and UX for built-in components, new middleware for Next.js, a CLI tool to help you upgrade, and a lot of bug fixes, DX improvements, and deprecation removals.
+- [Data Privacy Framework (DPF) certification](https://clerk.com/changelog/2024-02-29): The DPF bridges the gap between US businesses and GDPR compliance.
+- [Clerk Go SDK v2 (Beta)](https://clerk.com/changelog/2024-02-28): A beta release of our Golang SDK featuring improved API architecture and package structure
+- [Notice: SAML exiting Beta on Apr 01, 2024](https://clerk.com/changelog/2024-02-26): As of Apr 1, 2024, SAML Enterprise Connections will be exiting Beta and become Generally Available
+- [Support for 𝕏 / Twitter v2](https://clerk.com/changelog/2024-02-23): X (formerly Twitter) created a new version of their OAuth Provider and Clerk now supports it
+- [Improved organization billing visibility](https://clerk.com/changelog/2024-02-07): Efficiently track and manage their organization's expenses from a single location
+- [January 2024 Vulnerability Update](https://clerk.com/changelog/2024-02-02): Timeline of events for finding and fixing CVE-2024-22206
+- [Critical security vulnerability in @clerk/nextjs](https://clerk.com/changelog/2024-01-12): Please upgrade immediately to 4.29.3
+- [Improved UX for SAML authentication](https://clerk.com/changelog/2023-12-20): Enforce the usage of your IdP even when customer's initiate using SSO
+- [Custom Roles and Permissions is in Public Beta](https://clerk.com/changelog/2023-12-13): More control to operate your B2B SaaS via Custom Roles and Permissions
+- [Fetch users by latest activity](https://clerk.com/changelog/2023-12-07): Get a better understanding of your user's activity by using our updated Backend API endpoints which are now filterable by activity
+- [Simplified Pricing and updated Billing Dashboard](https://clerk.com/changelog/2023-12-06): Introducing a better pricing structure for all companies, and a better way to see your usage.
+- [Brute-force attack protection with Account Lockout](https://clerk.com/changelog/2023-12-01): Fight back against bots and protect your users from brute-force attacks with Account Lockout
+- [Use Clerk with Hono middleware](https://clerk.com/changelog/2023-11-08): Hono is a great minimal web framework for building applications across any edge runtime and now with Hono's middleware and our community SDK, you can secure it with Clerk.
+- [Add custom pages to <UserProfile /> and <OrganizationProfile />](https://clerk.com/changelog/2023-10-26): Customize your user and organization profiles by adding custom pages and external links to the navigation sidebar.
+- [New changelog + much more](https://clerk.com/changelog/2023-10-20): Interested in checking out something new from the Clerk team? Well you're looking at it; our fancy new dedicated Changelog
+- [Prefill Sign Up & Sign In Components, Improved SAML Account Linking, and Stable Remix v2 Support](https://clerk.com/changelog/2023-09-29): This week, we released prefill support for the `<SignUp />` and `<SignIn />` components, improved SAML account linking, and shipped an update for Remix v2.
+- [Improved Account Portal, Expo Key Swapping, and More](https://clerk.com/changelog/2023-09-15): This week, we shipped an improved account portal, added support for swapping keys in Expo, and shipped several quality-of-life enhancements across the stack.
+- [Satellite Domains, Verified Organization Domains, and More](https://clerk.com/changelog/2023-09-01): This week, we shipped the ability to add satellite domains to your app and upgraded our org's product with auto-invite & auto-suggestions for admins.
+- [Changelog August 18, 2023](https://clerk.com/changelog/2023-08-18): This week we shipped a feature to block sign ups using email subaddressing, new email templates for magic links, and support for repo based config with Remix!
+- [Changelog August 4, 2023](https://clerk.com/changelog/2023-08-04): This week we shipped Disposable Email Blocking, Mitigation for Unvalidated Redirect Vulnerabilities, a new JWT template for WunderGraph, and more!
+- [Changelog July 21, 2023](https://clerk.com/changelog/2023-07-21): This week we shipped support for JWT shortcode interpolation, filtering and sorting for users, orgs & members, and a new UK +44 number for SMS OTP verification.
+- [Changelog July 7, 2023](https://clerk.com/changelog/2023-07-07): This week, we shipped enhanced bot detection for UI Components, improvements to search query performance, and infrastructure updates for increased stability.
+- [Changelog June 23, 2023](https://clerk.com/changelog/2023-06-23): This week, we released Self Service Delete, Organization Creation Permissions, Enhanced Bot Protection, and various security and performance enhancements.
+- [Changelog June 9, 2023](https://clerk.com/changelog/2023-06-09): This week, we shipped a public beta for SAML and several updates and improvements to localization, multidomain support, password imports, and more.
+- [Changelog May 26, 2023](https://clerk.com/changelog/2023-05-26): This week, we launched a major upgrade to avatars, enabled domain updates in the dashboard, improved backend sorting capabilities, password features, and more.
+- [Changelog April 21, 2023](https://clerk.com/changelog/2023-04-21): A new change password flow, bulk invites for organizations, hosted pages in the dashboard! 
+- [Changelog April 7, 2023](https://clerk.com/changelog/2023-04-07): Expo 48 support, Improving our components, Runtime keys for Next.js...
+- [Changelog March 31, 2023](https://clerk.com/changelog/2023-03-31): Improved Web Vitals, Official Chrome Extension Support, OIDC Provider beta, Cross-Origin Embedder Policy Support
+- [Changelog March 24, 2023](https://clerk.com/changelog/2023-03-24): Series A announcement, improved email templates and dashboard improvements
+- [Changelog March 17, 2023](https://clerk.com/changelog/2023-03-17): You can find us at clerk.com, sign in with Linear, add scopes to users, beta docs updates
+- [Changelog March 3, 2023](https://clerk.com/changelog/2023-03-03): Organizations improvements, new Ruby SDK and Next.js route handler support
+ 
+- [Changelog Feb 24, 2023](https://clerk.com/changelog/2023-02-24): New docs, appearance and localization for Next.js App Router, Hydration improvements for remix, Spanish and German localization.
+- [Changelog Feb 10, 2023](https://clerk.com/changelog/2023-02-10): Introducing @clerk/fastify , Redwood v4 support, Next.js Middleware page protection and improvements to components.
+- [Changelog January 27, 2023](https://clerk.com/changelog/2023-01-27): Refactored API keys, Gatsby V5, Dynamic documentation, and migration support for Redwood self-hosted Auth.
+- [Changelog January 20, 2023](https://clerk.com/changelog/2023-01-20): Clerk has gone isomorphic, updated organization details page, and two deprecated packages
+- [Changelog December 23, 2022](https://clerk.com/changelog/2022-12-23): New backend API reference documentation, useAuth improvements and Italian language support 
+- [Changelog December 16, 2022](https://clerk.com/changelog/2022-12-16): No more third-party cookies, pricing updates, and an educational youtube channel.
+- [Changelog December 9, 2022](https://clerk.com/changelog/2022-12-09): 6.2 million dollars in funding, Support for Cloudflare workers, Localization improvements, Invite your team to Clerk and new social logins
+- [Changelog November 18, 2022](https://clerk.com/changelog/2022-11-18): Next.js app updates, improvements in appearance, and localization in Org components. TRPC support
+- [Changelog November 11, 2022](https://clerk.com/changelog/2022-11-11): New components for B2B SaaS: CreateOrganization, OrganizationProfile, OrganizationSwitcher! See the demo at Modern Frontends Live
+- [Changelog October 21, 2022](https://clerk.com/changelog/2022-10-21): Add OAuth connections after Sign Up, revamped Next.js documentation, and a Product Hunt relaunch
+- [Changelog October 7, 2022](https://clerk.com/changelog/2022-10-07): Refreshed branding, improved Next.js authentication SDK, MFA backup codes, and Sign in with Coinbase
+- [Changelog September 30, 2022](https://clerk.com/changelog/2022-09-30): We launched safe and auditable User Impersonation!
+- [Changelog September 23, 2022](https://clerk.com/changelog/2022-09-23): Component localization, integrations with Grafbase, Convex, and Nhost, blocklist and bans
+- [Changelog August 5, 2022](https://clerk.com/changelog/2022-08-05): MFA w/ Authenticator apps, and introducing a new settings page, with some new options.
+- [Changelog July 22, 2022](https://clerk.com/changelog/2022-07-22): Customizable Session tokens, Clerk playground, and an updated Data Processing Agreement.
+- [Changelog July 15, 2022](https://clerk.com/changelog/2022-07-15): Redesigned components enter beta with improved default styles and vastly more customizability! Plus, we're migrating free plans and we upgraded our WAF.
+- [Changelog July 8, 2022](https://clerk.com/changelog/2022-07-08): Next.js 12.2, Emails with high deliverability, Sign in with Line, Odds and ends.
+- [Changelog July 1, 2022](https://clerk.com/changelog/2022-07-01): Organizations, "verify after sign up", and big email upgrades.
+- [Changelog June 10, 2022](https://clerk.com/changelog/2022-06-10): Side-by-side Web2 & Web3 auth, strict sign up requirements, brand new documentation, use-stripe-subscription, inaugural weekly office hours
+- [Changelog June 17, 2022](https://clerk.com/changelog/2022-06-17): Updated pricing, Organizations hooks, AppSync support
+- [Changelog June 3, 2022](https://clerk.com/changelog/2022-06-03): Embeddable Magic Links, E2E Testing, The New Wave Remix Stack.  Updated pricing coming soon.
+- [Changelog May 27, 2022](https://clerk.com/changelog/2022-05-27): Discover the latest updates including our public roadmap launch, resilience enhancements, and advanced bot detection upgrades.
+- [Changelog May 20, 2022](https://clerk.com/changelog/2022-05-20): Announcing our roadmap as a Customer Identity Platform, managing over 250,000 users. Plus, a new homepage and improved documentation.
+- [Changelog May 13, 2022](https://clerk.com/changelog/2022-05-13): Continued organization management improvements, update domain in production, and a community spotlight on the Chop Suey Remix stack
+- [Changelog May 6, 2022](https://clerk.com/changelog/2022-05-06): SOC2 and HIPAA certifications, Organizations updates, Email deliverability, and test mode.
+- [Changelog Apr 29, 2022](https://clerk.com/changelog/2022-04-29): React 18 support, Remix & Fauna tutorial, email deliverability updates, organization deletion, and a community spotlight on Cypress testing!
+- [Changelog Apr 22, 2022](https://clerk.com/changelog/2022-04-22): Expo / React Native support, "slug" field for organizations, usernames in JWT templates, and a bucket o' Remix updates
+- [Changelog Apr 15, 2022](https://clerk.com/changelog/2022-04-15): This week we launched alpha support for authenticating Gatsby SSR, webhooks and metadata for Clerk-managed organizations, and improved observability.
+- [Changelog Apr 8, 2022](https://clerk.com/changelog/2022-04-08): OAuth after Sign Up, mergeable custom metadata, improved observability, and optional usernames - plus, try our Clerk x RedwoodJS authentication integration!
+- [Changelog Apr 1, 2022](https://clerk.com/changelog/2022-04-01): Instant Component previews, in-house docs, email deliverability improvements, plus Supabase Launch Week! 
+- [Changelog Mar 25, 2022](https://clerk.com/changelog/2022-03-25): Bring-your-own IdP with Sign in Tokens, new allowlist for sign ups, Sign in with Apple, and a `user.organizations` shortcode for custom JWT templates.
+- [Changelog Mar 18, 2022](https://clerk.com/changelog/2022-03-18): Server-side JWTs for Supabase and custom integrations, Firebase Authentication password migrations, toggleable hosted components, and a community spotlight!
+- [Changelog Mar 11, 2022](https://clerk.com/changelog/2022-03-11): Try our new and improved Remix integration! Plus, we refactored our authentication settings, and moved JWT templates into general availability.
+- [Changelog Mar 4, 2022](https://clerk.com/changelog/2022-03-04): Organization management API, custom OAuth scopes, application/json support, Microsoft and Notion Social Login, FaunaDB JWT template, and more!
+- [Changelog Feb 25, 2022](https://clerk.com/changelog/2022-02-25): A new Redwood guide and Remix SDK. Plus, our Organization management features are coming *very* soon!
+- [Changelog Feb 18, 2022](https://clerk.com/changelog/2022-02-18): We launched our Remix SDK, a new Fauna integration, instant development instances, and quick links for customization!
+- [Changelog Feb 11, 2022](https://clerk.com/changelog/2022-02-11): Usernames from social logins, a suite of frontend-accessible database integrations, Dropbox and Bitbucket social logins, BCrypt and Django password migrations
+- [Changelog Feb 4, 2022](https://clerk.com/changelog/2022-02-04): Open source javascript, an improved Supabase integration, LinkedIn social login, metadata for invitations, and credit where credit is due!
+- [Changelog Jan 28, 2022](https://clerk.com/changelog/2022-01-28): SSR for Next.js, improved Hasura integration, custom JWT signing keys + a community-built Web3 guide
+- [Changelog Jan 21, 2022](https://clerk.com/changelog/2022-01-21): Open-source Javascript, Web3 authentication, easier onboarding, cross-origin auth docs, and the ultimate guide to Next.js auth - what a week!
+- [Changelog Jan 14, 2022](https://clerk.com/changelog/2022-01-14): Chore week! Email deliverability, NPM sourcemaps, and a new product page on one-time passcodes.
+- [Changelog Jan 7, 2022](https://clerk.com/changelog/2022-01-07): Beta for our Supabase integration (our most requested integration of Q4!), more about our security practices, and a new community contribution
+- [Very Merry Changelog, Dec 24, 2021](https://clerk.com/changelog/2021-12-24): We've launched custom JWTs for authentication, improved security for magic links, easier onboarding and productionizing, and a new homepage! Happy holidays!
+- [Changelog Dec 17, 2021](https://clerk.com/changelog/2021-12-17): Happy holidays, we're launching customizable email and SMS templates!
+- [Changelog Dec 10, 2021](https://clerk.com/changelog/2021-12-10): Our new dashboard has launched! Plus new `<SignInButton>` and `<SignUpButton>` utilities
+- [Changelog Dec 3, 2021](https://clerk.com/changelog/2021-12-03): Clerk supports Expo, React Native, Invitations, new Allowlist options, and much more.  Authentication for the modern Web, now natively supporting mobile.
+- [Changelog Nov 26, 2021](https://clerk.com/changelog/2021-11-26): Rolling sessions, beta for our new dashboard, and a simple CNAME change for new production applications
+- [Changelog Nov 19, 2021](https://clerk.com/changelog/2021-11-19): New magic link API and docs, DIY session token validation docs, Twitch SSO support, and a new information page on OAuth SSO
+- [Changelog Nov 12, 2021](https://clerk.com/changelog/2021-11-12): Magic links have launched! Plus Twitter social sign-in, a new guide on passwordless authentication, and a new starter with Fastify, React, and Prisma
+- [Changelog Nov 5, 2021](https://clerk.com/changelog/2021-11-05): Session management as-a-service, a more extensible `<UserProfile/>`, Discord and GitLab sign in, and a new guide on data-syncing
+- [Changelog Oct 29, 2021](https://clerk.com/changelog/2021-10-29): Next.js authentication at the edge and bug fixes for our upcoming magic link launch
+- [Changelog Oct 22, 2021](https://clerk.com/changelog/2021-10-22): Faster, faster, faster! Sub-millisecond auth in your backend, faster sign-in, and faster loading. Plus, community Ember.js and Next.js support.
+- [Changelog Oct 15, 2021](https://clerk.com/changelog/2021-10-15): Announcing Authentication v2 - from our first company retreat in Greece
+- [Changelog Oct 8, 2021](https://clerk.com/changelog/2021-10-08): Style with the `theme` prop, set a custom session duration, startup pricing, and beta for "magic links"
+- [Changelog Oct 1, 2021](https://clerk.com/changelog/2021-10-01): Price drop to 2¢ per MAU, a new guide to customization, a new Google Analytics integration, and a complete API reference.
+
+## Documentation
+
+# Clerk
+
+## Docs
+
+- [Welcome to Clerk Docs](https://clerk.com/docs/)
+- [Maintenance Mode](https://clerk.com/docs/maintenance-mode)
+- [Pin a Clerk SDK](https://clerk.com/docs/pinning)
+- [JavaScript Backend SDK](https://clerk.com/docs/js-backend/getting-started/quickstart)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/js-backend/guides/billing/for-b2b)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/js-backend/guides/billing/for-b2c)
+- [`Layout` prop](https://clerk.com/docs/js-backend/guides/customizing-clerk/appearance-prop/layout)
+- [`captcha` prop](https://clerk.com/docs/js-backend/guides/customizing-clerk/appearance-prop/captcha)
+- [`Variables` prop](https://clerk.com/docs/js-backend/guides/customizing-clerk/appearance-prop/variables)
+- [Themes](https://clerk.com/docs/js-backend/guides/customizing-clerk/appearance-prop/themes)
+- [`Appearance` prop](https://clerk.com/docs/js-backend/guides/customizing-clerk/appearance-prop/overview)
+- [Clerk Billing webhooks](https://clerk.com/docs/js-backend/guides/development/webhooks/billing)
+- [Component Reference](https://clerk.com/docs/js-backend/reference/components/overview)
+- [Ruby Quickstart](https://clerk.com/docs/ruby/getting-started/quickstart)
+- [`captcha` prop](https://clerk.com/docs/ruby/guides/customizing-clerk/appearance-prop/captcha)
+- [`Layout` prop](https://clerk.com/docs/ruby/guides/customizing-clerk/appearance-prop/layout)
+- [Themes](https://clerk.com/docs/ruby/guides/customizing-clerk/appearance-prop/themes)
+- [`Appearance` prop](https://clerk.com/docs/ruby/guides/customizing-clerk/appearance-prop/overview)
+- [`Variables` prop](https://clerk.com/docs/ruby/guides/customizing-clerk/appearance-prop/variables)
+- [Component Reference](https://clerk.com/docs/ruby/reference/components/overview)
+- [Vue Quickstart](https://clerk.com/docs/vue/getting-started/quickstart)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/vue/guides/billing/for-b2b)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/vue/guides/billing/for-b2c)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/vue/guides/customizing-clerk/adding-items/user-profile)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/vue/guides/customizing-clerk/adding-items/organization-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/vue/guides/customizing-clerk/adding-items/user-button)
+- [`Appearance` prop](https://clerk.com/docs/vue/guides/customizing-clerk/appearance-prop/overview)
+- [`captcha` prop](https://clerk.com/docs/vue/guides/customizing-clerk/appearance-prop/captcha)
+- [Themes](https://clerk.com/docs/vue/guides/customizing-clerk/appearance-prop/themes)
+- [`Layout` prop](https://clerk.com/docs/vue/guides/customizing-clerk/appearance-prop/layout)
+- [`Variables` prop](https://clerk.com/docs/vue/guides/customizing-clerk/appearance-prop/variables)
+- [Clerk Billing webhooks](https://clerk.com/docs/vue/guides/development/webhooks/billing)
+- [`<APIKeys />` component](https://clerk.com/docs/vue/reference/components/api-keys)
+- [Component Reference](https://clerk.com/docs/vue/reference/components/overview)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/vue/reference/components/authentication/google-one-tap)
+- [`<SignIn />` component](https://clerk.com/docs/vue/reference/components/authentication/sign-in)
+- [`<SignUp />` component](https://clerk.com/docs/vue/reference/components/authentication/sign-up)
+- [`<Waitlist />` component](https://clerk.com/docs/vue/reference/components/authentication/waitlist)
+- [`<PricingTable />`](https://clerk.com/docs/vue/reference/components/billing/pricing-table)
+- [`<CheckoutButton />` component](https://clerk.com/docs/vue/reference/components/billing/checkout-button)
+- [`<SubscriptionDetailsButton />` component](https://clerk.com/docs/vue/reference/components/billing/subscription-details-button)
+- [`<PlanDetailsButton />` component](https://clerk.com/docs/vue/reference/components/billing/plan-details-button)
+- [`<RedirectToCreateOrganization />` (deprecated)](https://clerk.com/docs/vue/reference/components/control/redirect-to-create-organization)
+- [`<ClerkLoading>`](https://clerk.com/docs/vue/reference/components/control/clerk-loading)
+- [`<ClerkLoaded>`](https://clerk.com/docs/vue/reference/components/control/clerk-loaded)
+- [`<RedirectToOrganizationProfile />` (deprecated)](https://clerk.com/docs/vue/reference/components/control/redirect-to-organization-profile)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/vue/reference/components/control/authenticate-with-redirect-callback)
+- [`<Protect>`](https://clerk.com/docs/vue/reference/components/control/protect)
+- [`<RedirectToSignUp />`](https://clerk.com/docs/vue/reference/components/control/redirect-to-sign-up)
+- [`<RedirectToTasks />`](https://clerk.com/docs/vue/reference/components/control/redirect-to-tasks)
+- [`<RedirectToUserProfile />` (deprecated)](https://clerk.com/docs/vue/reference/components/control/redirect-to-user-profile)
+- [`<RedirectToSignIn />`](https://clerk.com/docs/vue/reference/components/control/redirect-to-sign-in)
+- [`<SignedIn>`](https://clerk.com/docs/vue/reference/components/control/signed-in)
+- [`<SignedOut>`](https://clerk.com/docs/vue/reference/components/control/signed-out)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/vue/reference/components/organization/organization-switcher)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/vue/reference/components/organization/organization-profile)
+- [`<CreateOrganization />` component](https://clerk.com/docs/vue/reference/components/organization/create-organization)
+- [`<OrganizationList />` component](https://clerk.com/docs/vue/reference/components/organization/organization-list)
+- [`<SignOutButton>`](https://clerk.com/docs/vue/reference/components/unstyled/sign-out-button)
+- [`<SignInButton>`](https://clerk.com/docs/vue/reference/components/unstyled/sign-in-button)
+- [`<SignInWithMetamaskButton>`](https://clerk.com/docs/vue/reference/components/unstyled/sign-in-with-metamask)
+- [`<SignUpButton>`](https://clerk.com/docs/vue/reference/components/unstyled/sign-up-button)
+- [`<UserAvatar />` component](https://clerk.com/docs/vue/reference/components/user/user-avatar)
+- [`<UserButton />` component](https://clerk.com/docs/vue/reference/components/user/user-button)
+- [`<UserProfile />` component](https://clerk.com/docs/vue/reference/components/user/user-profile)
+- [useSessionList() | Vue](https://clerk.com/docs/vue/reference/composables/use-session-list)
+- [useClerk() | Vue](https://clerk.com/docs/vue/reference/composables/use-clerk)
+- [useAuth() | Vue](https://clerk.com/docs/vue/reference/composables/use-auth)
+- [useSignIn() | Vue](https://clerk.com/docs/vue/reference/composables/use-sign-in)
+- [useOrganization() | Vue](https://clerk.com/docs/vue/reference/composables/use-organization)
+- [useSession() | Vue](https://clerk.com/docs/vue/reference/composables/use-session)
+- [useSignUp() | Vue](https://clerk.com/docs/vue/reference/composables/use-sign-up)
+- [useUser() | Vue](https://clerk.com/docs/vue/reference/composables/use-user)
+- [Nuxt Quickstart](https://clerk.com/docs/nuxt/getting-started/quickstart)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/nuxt/guides/billing/for-b2c)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/nuxt/guides/billing/for-b2b)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/nuxt/guides/customizing-clerk/adding-items/organization-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/nuxt/guides/customizing-clerk/adding-items/user-button)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/nuxt/guides/customizing-clerk/adding-items/user-profile)
+- [`Layout` prop](https://clerk.com/docs/nuxt/guides/customizing-clerk/appearance-prop/layout)
+- [`captcha` prop](https://clerk.com/docs/nuxt/guides/customizing-clerk/appearance-prop/captcha)
+- [`Variables` prop](https://clerk.com/docs/nuxt/guides/customizing-clerk/appearance-prop/variables)
+- [Themes](https://clerk.com/docs/nuxt/guides/customizing-clerk/appearance-prop/themes)
+- [`Appearance` prop](https://clerk.com/docs/nuxt/guides/customizing-clerk/appearance-prop/overview)
+- [Clerk Billing webhooks](https://clerk.com/docs/nuxt/guides/development/webhooks/billing)
+- [Get started with Organizations and Nuxt](https://clerk.com/docs/nuxt/guides/organizations/getting-started)
+- [Protect content and read user data](https://clerk.com/docs/nuxt/guides/users/reading)
+- [Component Reference](https://clerk.com/docs/nuxt/reference/components/overview)
+- [`<APIKeys />` component](https://clerk.com/docs/nuxt/reference/components/api-keys)
+- [`<PricingTable />`](https://clerk.com/docs/nuxt/reference/components/billing/pricing-table)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/nuxt/reference/components/authentication/google-one-tap)
+- [`<SignUp />` component](https://clerk.com/docs/nuxt/reference/components/authentication/sign-up)
+- [`<SignIn />` component](https://clerk.com/docs/nuxt/reference/components/authentication/sign-in)
+- [`<Waitlist />` component](https://clerk.com/docs/nuxt/reference/components/authentication/waitlist)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/nuxt/reference/components/control/authenticate-with-redirect-callback)
+- [`<ClerkLoaded>`](https://clerk.com/docs/nuxt/reference/components/control/clerk-loaded)
+- [`<RedirectToCreateOrganization />` (deprecated)](https://clerk.com/docs/nuxt/reference/components/control/redirect-to-create-organization)
+- [`<Protect>`](https://clerk.com/docs/nuxt/reference/components/control/protect)
+- [`<ClerkLoading>`](https://clerk.com/docs/nuxt/reference/components/control/clerk-loading)
+- [`<RedirectToOrganizationProfile />` (deprecated)](https://clerk.com/docs/nuxt/reference/components/control/redirect-to-organization-profile)
+- [`<RedirectToSignIn />`](https://clerk.com/docs/nuxt/reference/components/control/redirect-to-sign-in)
+- [`<RedirectToTasks />`](https://clerk.com/docs/nuxt/reference/components/control/redirect-to-tasks)
+- [`<SignedIn>`](https://clerk.com/docs/nuxt/reference/components/control/signed-in)
+- [`<RedirectToSignUp />`](https://clerk.com/docs/nuxt/reference/components/control/redirect-to-sign-up)
+- [`<RedirectToUserProfile />` (deprecated)](https://clerk.com/docs/nuxt/reference/components/control/redirect-to-user-profile)
+- [`<SignedOut>`](https://clerk.com/docs/nuxt/reference/components/control/signed-out)
+- [`<CreateOrganization />` component](https://clerk.com/docs/nuxt/reference/components/organization/create-organization)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/nuxt/reference/components/organization/organization-switcher)
+- [`<OrganizationList />` component](https://clerk.com/docs/nuxt/reference/components/organization/organization-list)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/nuxt/reference/components/organization/organization-profile)
+- [`<SignOutButton>`](https://clerk.com/docs/nuxt/reference/components/unstyled/sign-out-button)
+- [`<SignInWithMetamaskButton>`](https://clerk.com/docs/nuxt/reference/components/unstyled/sign-in-with-metamask)
+- [`<SignInButton>`](https://clerk.com/docs/nuxt/reference/components/unstyled/sign-in-button)
+- [`<SignUpButton>`](https://clerk.com/docs/nuxt/reference/components/unstyled/sign-up-button)
+- [`<UserAvatar />` component](https://clerk.com/docs/nuxt/reference/components/user/user-avatar)
+- [`<UserProfile />` component](https://clerk.com/docs/nuxt/reference/components/user/user-profile)
+- [`<UserButton />` component](https://clerk.com/docs/nuxt/reference/components/user/user-button)
+- [useClerk() | Vue](https://clerk.com/docs/nuxt/reference/composables/use-clerk)
+- [useAuth() | Vue](https://clerk.com/docs/nuxt/reference/composables/use-auth)
+- [useOrganization() | Vue](https://clerk.com/docs/nuxt/reference/composables/use-organization)
+- [useSignIn() | Vue](https://clerk.com/docs/nuxt/reference/composables/use-sign-in)
+- [useSession() | Vue](https://clerk.com/docs/nuxt/reference/composables/use-session)
+- [useSessionList() | Vue](https://clerk.com/docs/nuxt/reference/composables/use-session-list)
+- [useSignUp() | Vue](https://clerk.com/docs/nuxt/reference/composables/use-sign-up)
+- [useUser() | Vue](https://clerk.com/docs/nuxt/reference/composables/use-user)
+- [Astro Quickstart](https://clerk.com/docs/astro/getting-started/quickstart)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/astro/guides/billing/for-b2c)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/astro/guides/billing/for-b2b)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/astro/guides/customizing-clerk/adding-items/organization-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/astro/guides/customizing-clerk/adding-items/user-button)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/astro/guides/customizing-clerk/adding-items/user-profile)
+- [`captcha` prop](https://clerk.com/docs/astro/guides/customizing-clerk/appearance-prop/captcha)
+- [`Layout` prop](https://clerk.com/docs/astro/guides/customizing-clerk/appearance-prop/layout)
+- [`Appearance` prop](https://clerk.com/docs/astro/guides/customizing-clerk/appearance-prop/overview)
+- [`Variables` prop](https://clerk.com/docs/astro/guides/customizing-clerk/appearance-prop/variables)
+- [Themes](https://clerk.com/docs/astro/guides/customizing-clerk/appearance-prop/themes)
+- [Clerk Billing webhooks](https://clerk.com/docs/astro/guides/development/webhooks/billing)
+- [Get started with Organizations and Astro](https://clerk.com/docs/astro/guides/organizations/getting-started)
+- [Protect content and read user data](https://clerk.com/docs/astro/guides/users/reading)
+- [`<APIKeys />` component](https://clerk.com/docs/astro/reference/components/api-keys)
+- [Component Reference](https://clerk.com/docs/astro/reference/components/overview)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/astro/reference/components/authentication/google-one-tap)
+- [`<SignIn />` component](https://clerk.com/docs/astro/reference/components/authentication/sign-in)
+- [`<SignUp />` component](https://clerk.com/docs/astro/reference/components/authentication/sign-up)
+- [`<Waitlist />` component](https://clerk.com/docs/astro/reference/components/authentication/waitlist)
+- [`<PricingTable />`](https://clerk.com/docs/astro/reference/components/billing/pricing-table)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/astro/reference/components/control/authenticate-with-redirect-callback)
+- [`<SignedIn>`](https://clerk.com/docs/astro/reference/components/control/signed-in)
+- [`<ClerkLoaded>`](https://clerk.com/docs/astro/reference/components/control/clerk-loaded)
+- [`<Protect>`](https://clerk.com/docs/astro/reference/components/control/protect)
+- [`<SignedOut>`](https://clerk.com/docs/astro/reference/components/control/signed-out)
+- [`<ClerkLoading>`](https://clerk.com/docs/astro/reference/components/control/clerk-loading)
+- [`<OrganizationList />` component](https://clerk.com/docs/astro/reference/components/organization/organization-list)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/astro/reference/components/organization/organization-profile)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/astro/reference/components/organization/organization-switcher)
+- [`<CreateOrganization />` component](https://clerk.com/docs/astro/reference/components/organization/create-organization)
+- [`<SignInButton>`](https://clerk.com/docs/astro/reference/components/unstyled/sign-in-button)
+- [`<SignUpButton>`](https://clerk.com/docs/astro/reference/components/unstyled/sign-up-button)
+- [`<SignOutButton>`](https://clerk.com/docs/astro/reference/components/unstyled/sign-out-button)
+- [`<UserProfile />` component](https://clerk.com/docs/astro/reference/components/user/user-profile)
+- [`<UserButton />` component](https://clerk.com/docs/astro/reference/components/user/user-button)
+- [`<UserAvatar />` component](https://clerk.com/docs/astro/reference/components/user/user-avatar)
+- [useAuth()](https://clerk.com/docs/astro/reference/hooks/use-auth)
+- [Hooks Reference](https://clerk.com/docs/astro/reference/hooks/overview)
+- [Clerk Go SDK](https://clerk.com/docs/go/getting-started/quickstart)
+- [`Layout` prop](https://clerk.com/docs/go/guides/customizing-clerk/appearance-prop/layout)
+- [`Appearance` prop](https://clerk.com/docs/go/guides/customizing-clerk/appearance-prop/overview)
+- [Themes](https://clerk.com/docs/go/guides/customizing-clerk/appearance-prop/themes)
+- [`captcha` prop](https://clerk.com/docs/go/guides/customizing-clerk/appearance-prop/captcha)
+- [`Variables` prop](https://clerk.com/docs/go/guides/customizing-clerk/appearance-prop/variables)
+- [Component Reference](https://clerk.com/docs/go/reference/components/overview)
+- [TanStack React Start Quickstart (beta)](https://clerk.com/docs/tanstack-react-start/getting-started/quickstart)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/tanstack-react-start/guides/billing/for-b2c)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/tanstack-react-start/guides/billing/for-b2b)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/adding-items/organization-profile)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/adding-items/user-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/adding-items/user-button)
+- [`captcha` prop](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/appearance-prop/captcha)
+- [`Layout` prop](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/appearance-prop/layout)
+- [`Appearance` prop](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/appearance-prop/overview)
+- [`Variables` prop](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/appearance-prop/variables)
+- [Themes](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/appearance-prop/themes)
+- [Build your own sign-in-or-up page for your TanStack React Start app with Clerk](https://clerk.com/docs/tanstack-react-start/guides/development/custom-sign-in-or-up-page)
+- [Build your own sign-up page for your TanStack React Start app with Clerk](https://clerk.com/docs/tanstack-react-start/guides/development/custom-sign-up-page)
+- [Verify OAuth access tokens in your TanStack React Start application with Clerk](https://clerk.com/docs/tanstack-react-start/guides/development/verifying-oauth-access-tokens)
+- [Clerk Billing webhooks](https://clerk.com/docs/tanstack-react-start/guides/development/webhooks/billing)
+- [Protect content and read user data](https://clerk.com/docs/tanstack-react-start/guides/users/reading)
+- [`<APIKeys />` component](https://clerk.com/docs/tanstack-react-start/reference/components/api-keys)
+- [Component Reference](https://clerk.com/docs/tanstack-react-start/reference/components/overview)
+- [`<ClerkProvider>`](https://clerk.com/docs/tanstack-react-start/reference/components/clerk-provider)
+- [`<PricingTable />`](https://clerk.com/docs/tanstack-react-start/reference/components/billing/pricing-table)
+- [`<SignIn />` component](https://clerk.com/docs/tanstack-react-start/reference/components/authentication/sign-in)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/tanstack-react-start/reference/components/authentication/google-one-tap)
+- [`<Waitlist />` component](https://clerk.com/docs/tanstack-react-start/reference/components/authentication/waitlist)
+- [`<TaskChooseOrganization />` component](https://clerk.com/docs/tanstack-react-start/reference/components/authentication/task-choose-organization)
+- [`<SignUp />` component](https://clerk.com/docs/tanstack-react-start/reference/components/authentication/sign-up)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/tanstack-react-start/reference/components/control/authenticate-with-redirect-callback)
+- [`<ClerkDegraded>`](https://clerk.com/docs/tanstack-react-start/reference/components/control/clerk-degraded)
+- [`<ClerkFailed>`](https://clerk.com/docs/tanstack-react-start/reference/components/control/clerk-failed)
+- [`<Protect>`](https://clerk.com/docs/tanstack-react-start/reference/components/control/protect)
+- [`<ClerkLoading>`](https://clerk.com/docs/tanstack-react-start/reference/components/control/clerk-loading)
+- [`<ClerkLoaded>`](https://clerk.com/docs/tanstack-react-start/reference/components/control/clerk-loaded)
+- [`<RedirectToCreateOrganization />` (deprecated)](https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-create-organization)
+- [`<RedirectToOrganizationProfile />` (deprecated)](https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-organization-profile)
+- [`<RedirectToSignIn />`](https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-sign-in)
+- [`<RedirectToSignUp />`](https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-sign-up)
+- [`<RedirectToTasks />`](https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-tasks)
+- [`<RedirectToUserProfile />` (deprecated)](https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-user-profile)
+- [`<SignedIn>`](https://clerk.com/docs/tanstack-react-start/reference/components/control/signed-in)
+- [`<SignedOut>`](https://clerk.com/docs/tanstack-react-start/reference/components/control/signed-out)
+- [`<SignInWithMetamaskButton>`](https://clerk.com/docs/tanstack-react-start/reference/components/unstyled/sign-in-with-metamask)
+- [`<SignUpButton>`](https://clerk.com/docs/tanstack-react-start/reference/components/unstyled/sign-up-button)
+- [`<SignInButton>`](https://clerk.com/docs/tanstack-react-start/reference/components/unstyled/sign-in-button)
+- [`<SignOutButton>`](https://clerk.com/docs/tanstack-react-start/reference/components/unstyled/sign-out-button)
+- [`<CreateOrganization />` component](https://clerk.com/docs/tanstack-react-start/reference/components/organization/create-organization)
+- [`<OrganizationList />` component](https://clerk.com/docs/tanstack-react-start/reference/components/organization/organization-list)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/tanstack-react-start/reference/components/organization/organization-switcher)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/tanstack-react-start/reference/components/organization/organization-profile)
+- [`<UserButton />` component](https://clerk.com/docs/tanstack-react-start/reference/components/user/user-button)
+- [`<UserAvatar />` component](https://clerk.com/docs/tanstack-react-start/reference/components/user/user-avatar)
+- [`<UserProfile />` component](https://clerk.com/docs/tanstack-react-start/reference/components/user/user-profile)
+- [useAuth()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-auth)
+- [Hooks Reference](https://clerk.com/docs/tanstack-react-start/reference/hooks/overview)
+- [useClerk()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-clerk)
+- [useOrganization()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-organization)
+- [`useOrganizationList()`](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-organization-list)
+- [useSessionList()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-session-list)
+- [useReverification()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-reverification)
+- [useSession()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-session)
+- [useSignUp()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-sign-up)
+- [useUser()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-user)
+- [useSignIn()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-sign-in)
+- [Remix Quickstart](https://clerk.com/docs/remix/getting-started/quickstart)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/remix/guides/billing/for-b2b)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/remix/guides/billing/for-b2c)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/remix/guides/customizing-clerk/adding-items/organization-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/remix/guides/customizing-clerk/adding-items/user-button)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/remix/guides/customizing-clerk/adding-items/user-profile)
+- [`captcha` prop](https://clerk.com/docs/remix/guides/customizing-clerk/appearance-prop/captcha)
+- [`Variables` prop](https://clerk.com/docs/remix/guides/customizing-clerk/appearance-prop/variables)
+- [`Appearance` prop](https://clerk.com/docs/remix/guides/customizing-clerk/appearance-prop/overview)
+- [`Layout` prop](https://clerk.com/docs/remix/guides/customizing-clerk/appearance-prop/layout)
+- [Themes](https://clerk.com/docs/remix/guides/customizing-clerk/appearance-prop/themes)
+- [Build your own sign-in-or-up page for your Remix app with Clerk](https://clerk.com/docs/remix/guides/development/custom-sign-in-or-up-page)
+- [Build your own sign-up page for your Remix app with Clerk](https://clerk.com/docs/remix/guides/development/custom-sign-up-page)
+- [Clerk Billing webhooks](https://clerk.com/docs/remix/guides/development/webhooks/billing)
+- [Protect content and read user data](https://clerk.com/docs/remix/guides/users/reading)
+- [Component Reference](https://clerk.com/docs/remix/reference/components/overview)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/remix/reference/components/authentication/google-one-tap)
+- [`<SignIn />` component](https://clerk.com/docs/remix/reference/components/authentication/sign-in)
+- [`<SignUp />` component](https://clerk.com/docs/remix/reference/components/authentication/sign-up)
+- [`<Waitlist />` component](https://clerk.com/docs/remix/reference/components/authentication/waitlist)
+- [`<TaskChooseOrganization />` component](https://clerk.com/docs/remix/reference/components/authentication/task-choose-organization)
+- [`<PricingTable />`](https://clerk.com/docs/remix/reference/components/billing/pricing-table)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/remix/reference/components/control/authenticate-with-redirect-callback)
+- [`<ClerkFailed>`](https://clerk.com/docs/remix/reference/components/control/clerk-failed)
+- [`<ClerkLoaded>`](https://clerk.com/docs/remix/reference/components/control/clerk-loaded)
+- [`<ClerkLoading>`](https://clerk.com/docs/remix/reference/components/control/clerk-loading)
+- [`<ClerkDegraded>`](https://clerk.com/docs/remix/reference/components/control/clerk-degraded)
+- [`<Protect>`](https://clerk.com/docs/remix/reference/components/control/protect)
+- [`<RedirectToSignIn />`](https://clerk.com/docs/remix/reference/components/control/redirect-to-sign-in)
+- [`<RedirectToCreateOrganization />` (deprecated)](https://clerk.com/docs/remix/reference/components/control/redirect-to-create-organization)
+- [`<RedirectToOrganizationProfile />` (deprecated)](https://clerk.com/docs/remix/reference/components/control/redirect-to-organization-profile)
+- [`<RedirectToSignUp />`](https://clerk.com/docs/remix/reference/components/control/redirect-to-sign-up)
+- [`<RedirectToUserProfile />` (deprecated)](https://clerk.com/docs/remix/reference/components/control/redirect-to-user-profile)
+- [`<SignedIn>`](https://clerk.com/docs/remix/reference/components/control/signed-in)
+- [`<SignedOut>`](https://clerk.com/docs/remix/reference/components/control/signed-out)
+- [`<CreateOrganization />` component](https://clerk.com/docs/remix/reference/components/organization/create-organization)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/remix/reference/components/organization/organization-switcher)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/remix/reference/components/organization/organization-profile)
+- [`<OrganizationList />` component](https://clerk.com/docs/remix/reference/components/organization/organization-list)
+- [`<SignInWithMetamaskButton>`](https://clerk.com/docs/remix/reference/components/unstyled/sign-in-with-metamask)
+- [`<SignOutButton>`](https://clerk.com/docs/remix/reference/components/unstyled/sign-out-button)
+- [`<SignUpButton>`](https://clerk.com/docs/remix/reference/components/unstyled/sign-up-button)
+- [`<SignInButton>`](https://clerk.com/docs/remix/reference/components/unstyled/sign-in-button)
+- [`<UserAvatar />` component](https://clerk.com/docs/remix/reference/components/user/user-avatar)
+- [`<UserButton />` component](https://clerk.com/docs/remix/reference/components/user/user-button)
+- [`<UserProfile />` component](https://clerk.com/docs/remix/reference/components/user/user-profile)
+- [useOrganization()](https://clerk.com/docs/remix/reference/hooks/use-organization)
+- [useReverification()](https://clerk.com/docs/remix/reference/hooks/use-reverification)
+- [`useOrganizationList()`](https://clerk.com/docs/remix/reference/hooks/use-organization-list)
+- [Hooks Reference](https://clerk.com/docs/remix/reference/hooks/overview)
+- [React Router Quickstart](https://clerk.com/docs/react-router/getting-started/quickstart)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/react-router/guides/billing/for-b2b)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/react-router/guides/billing/for-b2c)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/react-router/guides/customizing-clerk/adding-items/user-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/react-router/guides/customizing-clerk/adding-items/user-button)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/react-router/guides/customizing-clerk/adding-items/organization-profile)
+- [`captcha` prop](https://clerk.com/docs/react-router/guides/customizing-clerk/appearance-prop/captcha)
+- [`Appearance` prop](https://clerk.com/docs/react-router/guides/customizing-clerk/appearance-prop/overview)
+- [`Layout` prop](https://clerk.com/docs/react-router/guides/customizing-clerk/appearance-prop/layout)
+- [`Variables` prop](https://clerk.com/docs/react-router/guides/customizing-clerk/appearance-prop/variables)
+- [Themes](https://clerk.com/docs/react-router/guides/customizing-clerk/appearance-prop/themes)
+- [Build your own sign-in-or-up page for your React Router app with Clerk](https://clerk.com/docs/react-router/guides/development/custom-sign-in-or-up-page)
+- [Verify OAuth access tokens in your React Router application with Clerk](https://clerk.com/docs/react-router/guides/development/verifying-oauth-access-tokens)
+- [Build your own sign-up page for your React Router app with Clerk](https://clerk.com/docs/react-router/guides/development/custom-sign-up-page)
+- [Clerk Billing webhooks](https://clerk.com/docs/react-router/guides/development/webhooks/billing)
+- [Get started with Organizations and React Router](https://clerk.com/docs/react-router/guides/organizations/getting-started)
+- [Protect content and read user data](https://clerk.com/docs/react-router/guides/users/reading)
+- [`<APIKeys />` component](https://clerk.com/docs/react-router/reference/components/api-keys)
+- [`<ClerkProvider>`](https://clerk.com/docs/react-router/reference/components/clerk-provider)
+- [Component Reference](https://clerk.com/docs/react-router/reference/components/overview)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/react-router/reference/components/authentication/google-one-tap)
+- [`<SignIn />` component](https://clerk.com/docs/react-router/reference/components/authentication/sign-in)
+- [`<SignUp />` component](https://clerk.com/docs/react-router/reference/components/authentication/sign-up)
+- [`<Waitlist />` component](https://clerk.com/docs/react-router/reference/components/authentication/waitlist)
+- [`<TaskChooseOrganization />` component](https://clerk.com/docs/react-router/reference/components/authentication/task-choose-organization)
+- [`<PricingTable />`](https://clerk.com/docs/react-router/reference/components/billing/pricing-table)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/react-router/reference/components/control/authenticate-with-redirect-callback)
+- [`<ClerkDegraded>`](https://clerk.com/docs/react-router/reference/components/control/clerk-degraded)
+- [`<ClerkFailed>`](https://clerk.com/docs/react-router/reference/components/control/clerk-failed)
+- [`<ClerkLoaded>`](https://clerk.com/docs/react-router/reference/components/control/clerk-loaded)
+- [`<Protect>`](https://clerk.com/docs/react-router/reference/components/control/protect)
+- [`<ClerkLoading>`](https://clerk.com/docs/react-router/reference/components/control/clerk-loading)
+- [`<RedirectToCreateOrganization />` (deprecated)](https://clerk.com/docs/react-router/reference/components/control/redirect-to-create-organization)
+- [`<RedirectToOrganizationProfile />` (deprecated)](https://clerk.com/docs/react-router/reference/components/control/redirect-to-organization-profile)
+- [`<RedirectToSignIn />`](https://clerk.com/docs/react-router/reference/components/control/redirect-to-sign-in)
+- [`<RedirectToSignUp />`](https://clerk.com/docs/react-router/reference/components/control/redirect-to-sign-up)
+- [`<RedirectToTasks />`](https://clerk.com/docs/react-router/reference/components/control/redirect-to-tasks)
+- [`<RedirectToUserProfile />` (deprecated)](https://clerk.com/docs/react-router/reference/components/control/redirect-to-user-profile)
+- [`<SignedIn>`](https://clerk.com/docs/react-router/reference/components/control/signed-in)
+- [`<SignedOut>`](https://clerk.com/docs/react-router/reference/components/control/signed-out)
+- [`<CreateOrganization />` component](https://clerk.com/docs/react-router/reference/components/organization/create-organization)
+- [`<OrganizationList />` component](https://clerk.com/docs/react-router/reference/components/organization/organization-list)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/react-router/reference/components/organization/organization-switcher)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/react-router/reference/components/organization/organization-profile)
+- [`<SignInButton>`](https://clerk.com/docs/react-router/reference/components/unstyled/sign-in-button)
+- [`<SignUpButton>`](https://clerk.com/docs/react-router/reference/components/unstyled/sign-up-button)
+- [`<SignInWithMetamaskButton>`](https://clerk.com/docs/react-router/reference/components/unstyled/sign-in-with-metamask)
+- [`<SignOutButton>`](https://clerk.com/docs/react-router/reference/components/unstyled/sign-out-button)
+- [`<UserAvatar />` component](https://clerk.com/docs/react-router/reference/components/user/user-avatar)
+- [`<UserProfile />` component](https://clerk.com/docs/react-router/reference/components/user/user-profile)
+- [`<UserButton />` component](https://clerk.com/docs/react-router/reference/components/user/user-button)
+- [useAuth()](https://clerk.com/docs/react-router/reference/hooks/use-auth)
+- [Hooks Reference](https://clerk.com/docs/react-router/reference/hooks/overview)
+- [useClerk()](https://clerk.com/docs/react-router/reference/hooks/use-clerk)
+- [useOrganization()](https://clerk.com/docs/react-router/reference/hooks/use-organization)
+- [useSessionList()](https://clerk.com/docs/react-router/reference/hooks/use-session-list)
+- [`useOrganizationList()`](https://clerk.com/docs/react-router/reference/hooks/use-organization-list)
+- [useReverification()](https://clerk.com/docs/react-router/reference/hooks/use-reverification)
+- [useSession()](https://clerk.com/docs/react-router/reference/hooks/use-session)
+- [useSignUp()](https://clerk.com/docs/react-router/reference/hooks/use-sign-up)
+- [useUser()](https://clerk.com/docs/react-router/reference/hooks/use-user)
+- [useSignIn()](https://clerk.com/docs/react-router/reference/hooks/use-sign-in)
+- [Fastify Quickstart](https://clerk.com/docs/fastify/getting-started/quickstart)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/fastify/guides/billing/for-b2b)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/fastify/guides/billing/for-b2c)
+- [`Layout` prop](https://clerk.com/docs/fastify/guides/customizing-clerk/appearance-prop/layout)
+- [`Appearance` prop](https://clerk.com/docs/fastify/guides/customizing-clerk/appearance-prop/overview)
+- [`captcha` prop](https://clerk.com/docs/fastify/guides/customizing-clerk/appearance-prop/captcha)
+- [`Variables` prop](https://clerk.com/docs/fastify/guides/customizing-clerk/appearance-prop/variables)
+- [Themes](https://clerk.com/docs/fastify/guides/customizing-clerk/appearance-prop/themes)
+- [Clerk Billing webhooks](https://clerk.com/docs/fastify/guides/development/webhooks/billing)
+- [Component Reference](https://clerk.com/docs/fastify/reference/components/overview)
+- [Express Quickstart](https://clerk.com/docs/expressjs/getting-started/quickstart)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/expressjs/guides/billing/for-b2c)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/expressjs/guides/billing/for-b2b)
+- [Clerk Billing webhooks](https://clerk.com/docs/expressjs/guides/development/webhooks/billing)
+- [Build an MCP server in your application with Clerk](https://clerk.com/docs/expressjs/guides/development/mcp/build-mcp-server)
+- [`Layout` prop](https://clerk.com/docs/expressjs/guides/customizing-clerk/appearance-prop/layout)
+- [`captcha` prop](https://clerk.com/docs/expressjs/guides/customizing-clerk/appearance-prop/captcha)
+- [`Variables` prop](https://clerk.com/docs/expressjs/guides/customizing-clerk/appearance-prop/variables)
+- [`Appearance` prop](https://clerk.com/docs/expressjs/guides/customizing-clerk/appearance-prop/overview)
+- [Themes](https://clerk.com/docs/expressjs/guides/customizing-clerk/appearance-prop/themes)
+- [Component Reference](https://clerk.com/docs/expressjs/reference/components/overview)
+- [iOS Quickstart](https://clerk.com/docs/ios/getting-started/quickstart)
+- [`ClerkTheme`](https://clerk.com/docs/ios/guides/customizing-clerk/clerk-theme)
+- [Sign in with Apple](https://clerk.com/docs/ios/guides/configure/auth-strategies/sign-in-with-apple)
+- [View Reference](https://clerk.com/docs/ios/reference/views/overview)
+- [`AuthView`](https://clerk.com/docs/ios/reference/views/authentication/auth-view)
+- [`UserProfileView`](https://clerk.com/docs/ios/reference/views/user/user-profile-view)
+- [`UserButton`](https://clerk.com/docs/ios/reference/views/user/user-button)
+- [Android Quickstart](https://clerk.com/docs/android/getting-started/quickstart)
+- [`ClerkTheme`](https://clerk.com/docs/android/guides/customizing-clerk/clerk-theme)
+- [View Reference](https://clerk.com/docs/android/reference/views/overview)
+- [`AuthView`](https://clerk.com/docs/android/reference/views/authentication/auth-view)
+- [`UserButton`](https://clerk.com/docs/android/reference/views/user/user-button)
+- [`UserProfileView`](https://clerk.com/docs/android/reference/views/user/user-profile-view)
+- [Expo Quickstart](https://clerk.com/docs/expo/getting-started/quickstart)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/expo/guides/billing/for-b2c)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/expo/guides/billing/for-b2b)
+- [Sign in with Apple](https://clerk.com/docs/expo/guides/configure/auth-strategies/sign-in-with-apple)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/expo/guides/customizing-clerk/adding-items/organization-profile)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/expo/guides/customizing-clerk/adding-items/user-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/expo/guides/customizing-clerk/adding-items/user-button)
+- [`Layout` prop](https://clerk.com/docs/expo/guides/customizing-clerk/appearance-prop/layout)
+- [`captcha` prop](https://clerk.com/docs/expo/guides/customizing-clerk/appearance-prop/captcha)
+- [`Appearance` prop](https://clerk.com/docs/expo/guides/customizing-clerk/appearance-prop/overview)
+- [Themes](https://clerk.com/docs/expo/guides/customizing-clerk/appearance-prop/themes)
+- [`Variables` prop](https://clerk.com/docs/expo/guides/customizing-clerk/appearance-prop/variables)
+- [Protect content and read user data](https://clerk.com/docs/expo/guides/users/reading)
+- [Clerk Billing webhooks](https://clerk.com/docs/expo/guides/development/webhooks/billing)
+- [Component Reference](https://clerk.com/docs/expo/reference/components/overview)
+- [`<ClerkProvider>`](https://clerk.com/docs/expo/reference/components/clerk-provider)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/expo/reference/components/authentication/google-one-tap)
+- [`<SignIn />` component](https://clerk.com/docs/expo/reference/components/authentication/sign-in)
+- [`<Waitlist />` component](https://clerk.com/docs/expo/reference/components/authentication/waitlist)
+- [`<SignUp />` component](https://clerk.com/docs/expo/reference/components/authentication/sign-up)
+- [`<PricingTable />`](https://clerk.com/docs/expo/reference/components/billing/pricing-table)
+- [`<ClerkLoaded>`](https://clerk.com/docs/expo/reference/components/control/clerk-loaded)
+- [`<ClerkLoading>`](https://clerk.com/docs/expo/reference/components/control/clerk-loading)
+- [`<Protect>`](https://clerk.com/docs/expo/reference/components/control/protect)
+- [`<SignedOut>`](https://clerk.com/docs/expo/reference/components/control/signed-out)
+- [`<SignedIn>`](https://clerk.com/docs/expo/reference/components/control/signed-in)
+- [`<CreateOrganization />` component](https://clerk.com/docs/expo/reference/components/organization/create-organization)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/expo/reference/components/organization/organization-switcher)
+- [`<OrganizationList />` component](https://clerk.com/docs/expo/reference/components/organization/organization-list)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/expo/reference/components/organization/organization-profile)
+- [`<SignOutButton>`](https://clerk.com/docs/expo/reference/components/unstyled/sign-out-button)
+- [`<SignInButton>`](https://clerk.com/docs/expo/reference/components/unstyled/sign-in-button)
+- [`<SignUpButton>`](https://clerk.com/docs/expo/reference/components/unstyled/sign-up-button)
+- [`<SignInWithMetamaskButton>`](https://clerk.com/docs/expo/reference/components/unstyled/sign-in-with-metamask)
+- [`<UserAvatar />` component](https://clerk.com/docs/expo/reference/components/user/user-avatar)
+- [`<UserButton />` component](https://clerk.com/docs/expo/reference/components/user/user-button)
+- [`<UserProfile />` component](https://clerk.com/docs/expo/reference/components/user/user-profile)
+- [useAuth()](https://clerk.com/docs/expo/reference/hooks/use-auth)
+- [`useOrganizationList()`](https://clerk.com/docs/expo/reference/hooks/use-organization-list)
+- [useOrganization()](https://clerk.com/docs/expo/reference/hooks/use-organization)
+- [useClerk()](https://clerk.com/docs/expo/reference/hooks/use-clerk)
+- [Hooks Reference](https://clerk.com/docs/expo/reference/hooks/overview)
+- [useSessionList()](https://clerk.com/docs/expo/reference/hooks/use-session-list)
+- [useReverification()](https://clerk.com/docs/expo/reference/hooks/use-reverification)
+- [useSignUp()](https://clerk.com/docs/expo/reference/hooks/use-sign-up)
+- [useSignIn()](https://clerk.com/docs/expo/reference/hooks/use-sign-in)
+- [useSession()](https://clerk.com/docs/expo/reference/hooks/use-session)
+- [useUser()](https://clerk.com/docs/expo/reference/hooks/use-user)
+- [Chrome Extension Quickstart](https://clerk.com/docs/chrome-extension/getting-started/quickstart)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/adding-items/user-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/adding-items/user-button)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/adding-items/organization-profile)
+- [`captcha` prop](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/appearance-prop/captcha)
+- [`Layout` prop](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/appearance-prop/layout)
+- [Themes](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/appearance-prop/themes)
+- [`Appearance` prop](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/appearance-prop/overview)
+- [`Variables` prop](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/appearance-prop/variables)
+- [`<APIKeys />` component](https://clerk.com/docs/chrome-extension/reference/components/api-keys)
+- [Component Reference](https://clerk.com/docs/chrome-extension/reference/components/overview)
+- [`<ClerkProvider>`](https://clerk.com/docs/chrome-extension/reference/components/clerk-provider)
+- [`<Waitlist />` component](https://clerk.com/docs/chrome-extension/reference/components/authentication/waitlist)
+- [`<SignUp />` component](https://clerk.com/docs/chrome-extension/reference/components/authentication/sign-up)
+- [`<SignIn />` component](https://clerk.com/docs/chrome-extension/reference/components/authentication/sign-in)
+- [`<PricingTable />`](https://clerk.com/docs/chrome-extension/reference/components/billing/pricing-table)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/chrome-extension/reference/components/control/authenticate-with-redirect-callback)
+- [`<ClerkLoading>`](https://clerk.com/docs/chrome-extension/reference/components/control/clerk-loading)
+- [`<ClerkFailed>`](https://clerk.com/docs/chrome-extension/reference/components/control/clerk-failed)
+- [`<Protect>`](https://clerk.com/docs/chrome-extension/reference/components/control/protect)
+- [`<ClerkDegraded>`](https://clerk.com/docs/chrome-extension/reference/components/control/clerk-degraded)
+- [`<ClerkLoaded>`](https://clerk.com/docs/chrome-extension/reference/components/control/clerk-loaded)
+- [`<SignedIn>`](https://clerk.com/docs/chrome-extension/reference/components/control/signed-in)
+- [`<RedirectToSignIn />`](https://clerk.com/docs/chrome-extension/reference/components/control/redirect-to-sign-in)
+- [`<RedirectToTasks />`](https://clerk.com/docs/chrome-extension/reference/components/control/redirect-to-tasks)
+- [`<RedirectToSignUp />`](https://clerk.com/docs/chrome-extension/reference/components/control/redirect-to-sign-up)
+- [`<SignedOut>`](https://clerk.com/docs/chrome-extension/reference/components/control/signed-out)
+- [`<CreateOrganization />` component](https://clerk.com/docs/chrome-extension/reference/components/organization/create-organization)
+- [`<OrganizationList />` component](https://clerk.com/docs/chrome-extension/reference/components/organization/organization-list)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/chrome-extension/reference/components/organization/organization-profile)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/chrome-extension/reference/components/organization/organization-switcher)
+- [`<SignOutButton>`](https://clerk.com/docs/chrome-extension/reference/components/unstyled/sign-out-button)
+- [`<SignInButton>`](https://clerk.com/docs/chrome-extension/reference/components/unstyled/sign-in-button)
+- [`<SignUpButton>`](https://clerk.com/docs/chrome-extension/reference/components/unstyled/sign-up-button)
+- [`<UserAvatar />` component](https://clerk.com/docs/chrome-extension/reference/components/user/user-avatar)
+- [`<UserButton />` component](https://clerk.com/docs/chrome-extension/reference/components/user/user-button)
+- [`<UserProfile />` component](https://clerk.com/docs/chrome-extension/reference/components/user/user-profile)
+- [useAuth()](https://clerk.com/docs/chrome-extension/reference/hooks/use-auth)
+- [Hooks Reference](https://clerk.com/docs/chrome-extension/reference/hooks/overview)
+- [`useOrganizationList()`](https://clerk.com/docs/chrome-extension/reference/hooks/use-organization-list)
+- [useClerk()](https://clerk.com/docs/chrome-extension/reference/hooks/use-clerk)
+- [useSessionList()](https://clerk.com/docs/chrome-extension/reference/hooks/use-session-list)
+- [useReverification()](https://clerk.com/docs/chrome-extension/reference/hooks/use-reverification)
+- [useSignIn()](https://clerk.com/docs/chrome-extension/reference/hooks/use-sign-in)
+- [useSession()](https://clerk.com/docs/chrome-extension/reference/hooks/use-session)
+- [useOrganization()](https://clerk.com/docs/chrome-extension/reference/hooks/use-organization)
+- [useSignUp()](https://clerk.com/docs/chrome-extension/reference/hooks/use-sign-up)
+- [useUser()](https://clerk.com/docs/chrome-extension/reference/hooks/use-user)
+- [JavaScript Quickstart](https://clerk.com/docs/js-frontend/getting-started/quickstart)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/js-frontend/guides/billing/for-b2c)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/js-frontend/guides/billing/for-b2b)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/js-frontend/guides/customizing-clerk/adding-items/organization-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/js-frontend/guides/customizing-clerk/adding-items/user-button)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/js-frontend/guides/customizing-clerk/adding-items/user-profile)
+- [`captcha` prop](https://clerk.com/docs/js-frontend/guides/customizing-clerk/appearance-prop/captcha)
+- [Themes](https://clerk.com/docs/js-frontend/guides/customizing-clerk/appearance-prop/themes)
+- [`Variables` prop](https://clerk.com/docs/js-frontend/guides/customizing-clerk/appearance-prop/variables)
+- [`Appearance` prop](https://clerk.com/docs/js-frontend/guides/customizing-clerk/appearance-prop/overview)
+- [`Layout` prop](https://clerk.com/docs/js-frontend/guides/customizing-clerk/appearance-prop/layout)
+- [Clerk Billing webhooks](https://clerk.com/docs/js-frontend/guides/development/webhooks/billing)
+- [`<APIKeys />` component](https://clerk.com/docs/js-frontend/reference/components/api-keys)
+- [Component Reference](https://clerk.com/docs/js-frontend/reference/components/overview)
+- [`<PricingTable />`](https://clerk.com/docs/js-frontend/reference/components/billing/pricing-table)
+- [`<SignUp />` component](https://clerk.com/docs/js-frontend/reference/components/authentication/sign-up)
+- [`<Waitlist />` component](https://clerk.com/docs/js-frontend/reference/components/authentication/waitlist)
+- [`<TaskChooseOrganization />` component](https://clerk.com/docs/js-frontend/reference/components/authentication/task-choose-organization)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/js-frontend/reference/components/authentication/google-one-tap)
+- [`<SignIn />` component](https://clerk.com/docs/js-frontend/reference/components/authentication/sign-in)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/js-frontend/reference/components/control/authenticate-with-redirect-callback)
+- [`<ClerkLoaded>`](https://clerk.com/docs/js-frontend/reference/components/control/clerk-loaded)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/js-frontend/reference/components/organization/organization-profile)
+- [`<CreateOrganization />` component](https://clerk.com/docs/js-frontend/reference/components/organization/create-organization)
+- [`<OrganizationList />` component](https://clerk.com/docs/js-frontend/reference/components/organization/organization-list)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/js-frontend/reference/components/organization/organization-switcher)
+- [`<UserAvatar />` component](https://clerk.com/docs/js-frontend/reference/components/user/user-avatar)
+- [`<UserProfile />` component](https://clerk.com/docs/js-frontend/reference/components/user/user-profile)
+- [`<UserButton />` component](https://clerk.com/docs/js-frontend/reference/components/user/user-button)
+- [React Quickstart](https://clerk.com/docs/react/getting-started/quickstart)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/react/guides/billing/for-b2b)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/react/guides/billing/for-b2c)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/react/guides/customizing-clerk/adding-items/user-button)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/react/guides/customizing-clerk/adding-items/user-profile)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/react/guides/customizing-clerk/adding-items/organization-profile)
+- [`captcha` prop](https://clerk.com/docs/react/guides/customizing-clerk/appearance-prop/captcha)
+- [`Layout` prop](https://clerk.com/docs/react/guides/customizing-clerk/appearance-prop/layout)
+- [Themes](https://clerk.com/docs/react/guides/customizing-clerk/appearance-prop/themes)
+- [`Variables` prop](https://clerk.com/docs/react/guides/customizing-clerk/appearance-prop/variables)
+- [`Appearance` prop](https://clerk.com/docs/react/guides/customizing-clerk/appearance-prop/overview)
+- [Clerk Billing webhooks](https://clerk.com/docs/react/guides/development/webhooks/billing)
+- [Get started with Organizations and React](https://clerk.com/docs/react/guides/organizations/getting-started)
+- [`<ClerkProvider>`](https://clerk.com/docs/react/reference/components/clerk-provider)
+- [Component Reference](https://clerk.com/docs/react/reference/components/overview)
+- [`<APIKeys />` component](https://clerk.com/docs/react/reference/components/api-keys)
+- [`<Waitlist />` component](https://clerk.com/docs/react/reference/components/authentication/waitlist)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/react/reference/components/authentication/google-one-tap)
+- [`<SignUp />` component](https://clerk.com/docs/react/reference/components/authentication/sign-up)
+- [`<SignIn />` component](https://clerk.com/docs/react/reference/components/authentication/sign-in)
+- [`<TaskChooseOrganization />` component](https://clerk.com/docs/react/reference/components/authentication/task-choose-organization)
+- [`<CheckoutButton />` component](https://clerk.com/docs/react/reference/components/billing/checkout-button)
+- [`<PlanDetailsButton />` component](https://clerk.com/docs/react/reference/components/billing/plan-details-button)
+- [`<SubscriptionDetailsButton />` component](https://clerk.com/docs/react/reference/components/billing/subscription-details-button)
+- [`<PricingTable />`](https://clerk.com/docs/react/reference/components/billing/pricing-table)
+- [`<ClerkFailed>`](https://clerk.com/docs/react/reference/components/control/clerk-failed)
+- [`<ClerkDegraded>`](https://clerk.com/docs/react/reference/components/control/clerk-degraded)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/react/reference/components/control/authenticate-with-redirect-callback)
+- [`<ClerkLoaded>`](https://clerk.com/docs/react/reference/components/control/clerk-loaded)
+- [`<Protect>`](https://clerk.com/docs/react/reference/components/control/protect)
+- [`<RedirectToOrganizationProfile />` (deprecated)](https://clerk.com/docs/react/reference/components/control/redirect-to-organization-profile)
+- [`<RedirectToCreateOrganization />` (deprecated)](https://clerk.com/docs/react/reference/components/control/redirect-to-create-organization)
+- [`<RedirectToSignIn />`](https://clerk.com/docs/react/reference/components/control/redirect-to-sign-in)
+- [`<ClerkLoading>`](https://clerk.com/docs/react/reference/components/control/clerk-loading)
+- [`<RedirectToSignUp />`](https://clerk.com/docs/react/reference/components/control/redirect-to-sign-up)
+- [`<RedirectToTasks />`](https://clerk.com/docs/react/reference/components/control/redirect-to-tasks)
+- [`<SignedIn>`](https://clerk.com/docs/react/reference/components/control/signed-in)
+- [`<SignedOut>`](https://clerk.com/docs/react/reference/components/control/signed-out)
+- [`<RedirectToUserProfile />` (deprecated)](https://clerk.com/docs/react/reference/components/control/redirect-to-user-profile)
+- [`<CreateOrganization />` component](https://clerk.com/docs/react/reference/components/organization/create-organization)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/react/reference/components/organization/organization-profile)
+- [`<OrganizationList />` component](https://clerk.com/docs/react/reference/components/organization/organization-list)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/react/reference/components/organization/organization-switcher)
+- [`<UserProfile />` component](https://clerk.com/docs/react/reference/components/user/user-profile)
+- [`<UserAvatar />` component](https://clerk.com/docs/react/reference/components/user/user-avatar)
+- [`<UserButton />` component](https://clerk.com/docs/react/reference/components/user/user-button)
+- [`<SignInButton>`](https://clerk.com/docs/react/reference/components/unstyled/sign-in-button)
+- [`<SignInWithMetamaskButton>`](https://clerk.com/docs/react/reference/components/unstyled/sign-in-with-metamask)
+- [`<SignUpButton>`](https://clerk.com/docs/react/reference/components/unstyled/sign-up-button)
+- [`<SignOutButton>`](https://clerk.com/docs/react/reference/components/unstyled/sign-out-button)
+- [Hooks Reference](https://clerk.com/docs/react/reference/hooks/overview)
+- [useAuth()](https://clerk.com/docs/react/reference/hooks/use-auth)
+- [`useCheckout()`](https://clerk.com/docs/react/reference/hooks/use-checkout)
+- [useOrganization()](https://clerk.com/docs/react/reference/hooks/use-organization)
+- [`useOrganizationList()`](https://clerk.com/docs/react/reference/hooks/use-organization-list)
+- [useClerk()](https://clerk.com/docs/react/reference/hooks/use-clerk)
+- [`usePaymentAttempts()`](https://clerk.com/docs/react/reference/hooks/use-payment-attempts)
+- [`usePaymentElement()`](https://clerk.com/docs/react/reference/hooks/use-payment-element)
+- [`usePaymentMethods()`](https://clerk.com/docs/react/reference/hooks/use-payment-methods)
+- [useReverification()](https://clerk.com/docs/react/reference/hooks/use-reverification)
+- [`usePlans()`](https://clerk.com/docs/react/reference/hooks/use-plans)
+- [useSessionList()](https://clerk.com/docs/react/reference/hooks/use-session-list)
+- [useSession()](https://clerk.com/docs/react/reference/hooks/use-session)
+- [useSignIn()](https://clerk.com/docs/react/reference/hooks/use-sign-in)
+- [`useStatements()`](https://clerk.com/docs/react/reference/hooks/use-statements)
+- [useSignUp()](https://clerk.com/docs/react/reference/hooks/use-sign-up)
+- [`useSubscription()`](https://clerk.com/docs/react/reference/hooks/use-subscription)
+- [useUser()](https://clerk.com/docs/react/reference/hooks/use-user)
+- [Next.js Quickstart (App Router)](https://clerk.com/docs/nextjs/getting-started/quickstart)
+- [Clerk Billing for B2B SaaS](https://clerk.com/docs/nextjs/guides/billing/for-b2b)
+- [Clerk Billing for B2C SaaS](https://clerk.com/docs/nextjs/guides/billing/for-b2c)
+- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/nextjs/guides/customizing-clerk/adding-items/organization-profile)
+- [Add custom pages and links to the `<UserProfile />` component](https://clerk.com/docs/nextjs/guides/customizing-clerk/adding-items/user-profile)
+- [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/nextjs/guides/customizing-clerk/adding-items/user-button)
+- [`Layout` prop](https://clerk.com/docs/nextjs/guides/customizing-clerk/appearance-prop/layout)
+- [`captcha` prop](https://clerk.com/docs/nextjs/guides/customizing-clerk/appearance-prop/captcha)
+- [Themes](https://clerk.com/docs/nextjs/guides/customizing-clerk/appearance-prop/themes)
+- [`Variables` prop](https://clerk.com/docs/nextjs/guides/customizing-clerk/appearance-prop/variables)
+- [`Appearance` prop](https://clerk.com/docs/nextjs/guides/customizing-clerk/appearance-prop/overview)
+- [Build your own sign-in-or-up page for your Next.js app with Clerk](https://clerk.com/docs/nextjs/guides/development/custom-sign-in-or-up-page)
+- [Build your own sign-up page for your Next.js app with Clerk](https://clerk.com/docs/nextjs/guides/development/custom-sign-up-page)
+- [Verify OAuth access tokens in your Next.js application with Clerk](https://clerk.com/docs/nextjs/guides/development/verifying-oauth-access-tokens)
+- [Build an MCP server in your application with Clerk](https://clerk.com/docs/nextjs/guides/development/mcp/build-mcp-server)
+- [Clerk Billing webhooks](https://clerk.com/docs/nextjs/guides/development/webhooks/billing)
+- [Get started with Organizations and Next.js](https://clerk.com/docs/nextjs/guides/organizations/getting-started)
+- [Protect content and read user data](https://clerk.com/docs/nextjs/guides/users/reading)
+- [`<APIKeys />` component](https://clerk.com/docs/nextjs/reference/components/api-keys)
+- [Component Reference](https://clerk.com/docs/nextjs/reference/components/overview)
+- [`<ClerkProvider>`](https://clerk.com/docs/nextjs/reference/components/clerk-provider)
+- [`<TaskChooseOrganization />` component](https://clerk.com/docs/nextjs/reference/components/authentication/task-choose-organization)
+- [`<SignIn />` component](https://clerk.com/docs/nextjs/reference/components/authentication/sign-in)
+- [`<SignUp />` component](https://clerk.com/docs/nextjs/reference/components/authentication/sign-up)
+- [`<GoogleOneTap />` component](https://clerk.com/docs/nextjs/reference/components/authentication/google-one-tap)
+- [`<Waitlist />` component](https://clerk.com/docs/nextjs/reference/components/authentication/waitlist)
+- [`<CheckoutButton />` component](https://clerk.com/docs/nextjs/reference/components/billing/checkout-button)
+- [`<PricingTable />`](https://clerk.com/docs/nextjs/reference/components/billing/pricing-table)
+- [`<PlanDetailsButton />` component](https://clerk.com/docs/nextjs/reference/components/billing/plan-details-button)
+- [`<SubscriptionDetailsButton />` component](https://clerk.com/docs/nextjs/reference/components/billing/subscription-details-button)
+- [<code>\<AuthenticateWith<wbr />RedirectCallback /></code>](https://clerk.com/docs/nextjs/reference/components/control/authenticate-with-redirect-callback)
+- [`<ClerkLoaded>`](https://clerk.com/docs/nextjs/reference/components/control/clerk-loaded)
+- [`<RedirectToCreateOrganization />` (deprecated)](https://clerk.com/docs/nextjs/reference/components/control/redirect-to-create-organization)
+- [`<ClerkLoading>`](https://clerk.com/docs/nextjs/reference/components/control/clerk-loading)
+- [`<Protect>`](https://clerk.com/docs/nextjs/reference/components/control/protect)
+- [`<RedirectToSignIn />`](https://clerk.com/docs/nextjs/reference/components/control/redirect-to-sign-in)
+- [`<ClerkFailed>`](https://clerk.com/docs/nextjs/reference/components/control/clerk-failed)
+- [`<RedirectToOrganizationProfile />` (deprecated)](https://clerk.com/docs/nextjs/reference/components/control/redirect-to-organization-profile)
+- [`<ClerkDegraded>`](https://clerk.com/docs/nextjs/reference/components/control/clerk-degraded)
+- [`<RedirectToSignUp />`](https://clerk.com/docs/nextjs/reference/components/control/redirect-to-sign-up)
+- [`<RedirectToTasks />`](https://clerk.com/docs/nextjs/reference/components/control/redirect-to-tasks)
+- [`<SignedIn>`](https://clerk.com/docs/nextjs/reference/components/control/signed-in)
+- [`<SignedOut>`](https://clerk.com/docs/nextjs/reference/components/control/signed-out)
+- [`<RedirectToUserProfile />` (deprecated)](https://clerk.com/docs/nextjs/reference/components/control/redirect-to-user-profile)
+- [`<OrganizationList />` component](https://clerk.com/docs/nextjs/reference/components/organization/organization-list)
+- [`<OrganizationProfile />` component](https://clerk.com/docs/nextjs/reference/components/organization/organization-profile)
+- [`<CreateOrganization />` component](https://clerk.com/docs/nextjs/reference/components/organization/create-organization)
+- [`<OrganizationSwitcher />` component](https://clerk.com/docs/nextjs/reference/components/organization/organization-switcher)
+- [`<SignOutButton>`](https://clerk.com/docs/nextjs/reference/components/unstyled/sign-out-button)
+- [`<SignUpButton>`](https://clerk.com/docs/nextjs/reference/components/unstyled/sign-up-button)
+- [`<SignInButton>`](https://clerk.com/docs/nextjs/reference/components/unstyled/sign-in-button)
+- [`<SignInWithMetamaskButton>`](https://clerk.com/docs/nextjs/reference/components/unstyled/sign-in-with-metamask)
+- [`<UserAvatar />` component](https://clerk.com/docs/nextjs/reference/components/user/user-avatar)
+- [`<UserProfile />` component](https://clerk.com/docs/nextjs/reference/components/user/user-profile)
+- [`<UserButton />` component](https://clerk.com/docs/nextjs/reference/components/user/user-button)
+- [Hooks Reference](https://clerk.com/docs/nextjs/reference/hooks/overview)
+- [useAuth()](https://clerk.com/docs/nextjs/reference/hooks/use-auth)
+- [`useCheckout()`](https://clerk.com/docs/nextjs/reference/hooks/use-checkout)
+- [`useOrganizationList()`](https://clerk.com/docs/nextjs/reference/hooks/use-organization-list)
+- [useClerk()](https://clerk.com/docs/nextjs/reference/hooks/use-clerk)
+- [useOrganization()](https://clerk.com/docs/nextjs/reference/hooks/use-organization)
+- [`usePaymentAttempts()`](https://clerk.com/docs/nextjs/reference/hooks/use-payment-attempts)
+- [`usePaymentMethods()`](https://clerk.com/docs/nextjs/reference/hooks/use-payment-methods)
+- [`usePaymentElement()`](https://clerk.com/docs/nextjs/reference/hooks/use-payment-element)
+- [`usePlans()`](https://clerk.com/docs/nextjs/reference/hooks/use-plans)
+- [useReverification()](https://clerk.com/docs/nextjs/reference/hooks/use-reverification)
+- [useSessionList()](https://clerk.com/docs/nextjs/reference/hooks/use-session-list)
+- [useSession()](https://clerk.com/docs/nextjs/reference/hooks/use-session)
+- [useSignIn()](https://clerk.com/docs/nextjs/reference/hooks/use-sign-in)
+- [`useStatements()`](https://clerk.com/docs/nextjs/reference/hooks/use-statements)
+- [useSignUp()](https://clerk.com/docs/nextjs/reference/hooks/use-sign-up)
+- [`useSubscription()`](https://clerk.com/docs/nextjs/reference/hooks/use-subscription)
+- [useUser()](https://clerk.com/docs/nextjs/reference/hooks/use-user)
+- [Core concepts](https://clerk.com/docs/getting-started/core-concepts)
+- [Set up your Clerk account](https://clerk.com/docs/getting-started/quickstart/setup-clerk)
+- [Quickstarts](https://clerk.com/docs/getting-started/quickstart/overview)
+- [Next.js Quickstart (Pages Router)](https://clerk.com/docs/getting-started/quickstart/pages-router)
+- [SDK References](https://clerk.com/docs/reference/overview)
+- [`authenticateRequest()`](https://clerk.com/docs/reference/backend/authenticate-request)
+- [Clerk's JavaScript Backend SDK](https://clerk.com/docs/reference/backend/overview)
+- [`verifyToken()`](https://clerk.com/docs/reference/backend/verify-token)
+- [`verifyWebhook()`](https://clerk.com/docs/reference/backend/verify-webhook)
+- [`createAllowlistIdentifier()`](https://clerk.com/docs/reference/backend/allowlist/create-allowlist-identifier)
+- [`deleteAllowlistIdentifier()`](https://clerk.com/docs/reference/backend/allowlist/delete-allowlist-identifier)
+- [`getAllowlistIdentifierList()`](https://clerk.com/docs/reference/backend/allowlist/get-allowlist-identifier-list)
+- [`create()`](https://clerk.com/docs/reference/backend/api-keys/create)
+- [`get()`](https://clerk.com/docs/reference/backend/api-keys/get)
+- [`list()`](https://clerk.com/docs/reference/backend/api-keys/list)
+- [`update()`](https://clerk.com/docs/reference/backend/api-keys/update)
+- [`verify()`](https://clerk.com/docs/reference/backend/api-keys/verify)
+- [`delete()`](https://clerk.com/docs/reference/backend/api-keys/delete)
+- [`revoke()`](https://clerk.com/docs/reference/backend/api-keys/revoke)
+- [`getOrganizationBillingSubscription()`](https://clerk.com/docs/reference/backend/billing/get-organization-billing-subscription)
+- [`getPlanList()`](https://clerk.com/docs/reference/backend/billing/get-plan-list)
+- [`cancelSubscriptionItem()`](https://clerk.com/docs/reference/backend/billing/cancel-subscription-item)
+- [`getUserBillingSubscription()`](https://clerk.com/docs/reference/backend/billing/get-user-billing-subscription)
+- [`getClientList()` (deprecated)](https://clerk.com/docs/reference/backend/client/get-client-list)
+- [`verifyClient()`](https://clerk.com/docs/reference/backend/client/verify-client)
+- [`getClient()`](https://clerk.com/docs/reference/backend/client/get-client)
+- [`deleteDomain()`](https://clerk.com/docs/reference/backend/domains/delete-domain)
+- [`deleteEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/delete-email-address)
+- [`updateEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/update-email-address)
+- [`getEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/get-email-address)
+- [`createEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/create-email-address)
+- [`createInvitationBulk()`](https://clerk.com/docs/reference/backend/invitations/create-invitation-bulk)
+- [`revokeInvitation()`](https://clerk.com/docs/reference/backend/invitations/revoke-invitation)
+- [`createInvitation()`](https://clerk.com/docs/reference/backend/invitations/create-invitation)
+- [`getInvitationList()`](https://clerk.com/docs/reference/backend/invitations/get-invitation-list)
+- [`createToken()`](https://clerk.com/docs/reference/backend/m2m-tokens/create-token)
+- [`revokeToken()`](https://clerk.com/docs/reference/backend/m2m-tokens/revoke-token)
+- [`verifyToken()`](https://clerk.com/docs/reference/backend/m2m-tokens/verify-token)
+- [`createScope()`](https://clerk.com/docs/reference/backend/machines/create-scope)
+- [`create()`](https://clerk.com/docs/reference/backend/machines/create)
+- [`deleteScope()`](https://clerk.com/docs/reference/backend/machines/delete-scope)
+- [`get()`](https://clerk.com/docs/reference/backend/machines/get)
+- [`delete()`](https://clerk.com/docs/reference/backend/machines/delete)
+- [`getSecretKey()`](https://clerk.com/docs/reference/backend/machines/get-secret-key)
+- [`list()`](https://clerk.com/docs/reference/backend/machines/list)
+- [`rotateSecretKey()`](https://clerk.com/docs/reference/backend/machines/rotate-secret-key)
+- [`update()`](https://clerk.com/docs/reference/backend/machines/update)
+- [`create()`](https://clerk.com/docs/reference/backend/oauth-applications/create)
+- [`delete()`](https://clerk.com/docs/reference/backend/oauth-applications/delete)
+- [`get()`](https://clerk.com/docs/reference/backend/oauth-applications/get)
+- [`update()`](https://clerk.com/docs/reference/backend/oauth-applications/update)
+- [`rotateSecret()`](https://clerk.com/docs/reference/backend/oauth-applications/rotate-secret)
+- [`list()`](https://clerk.com/docs/reference/backend/oauth-applications/list)
+- [`createOrganizationInvitationBulk()`](https://clerk.com/docs/reference/backend/organization/create-organization-invitation-bulk)
+- [`deleteOrganizationLogo()`](https://clerk.com/docs/reference/backend/organization/delete-organization-logo)
+- [`createOrganization()`](https://clerk.com/docs/reference/backend/organization/create-organization)
+- [`createOrganizationMembership()`](https://clerk.com/docs/reference/backend/organization/create-organization-membership)
+- [`getOrganizationList()`](https://clerk.com/docs/reference/backend/organization/get-organization-list)
+- [`deleteOrganization()`](https://clerk.com/docs/reference/backend/organization/delete-organization)
+- [`getOrganizationInvitation()`](https://clerk.com/docs/reference/backend/organization/get-organization-invitation)
+- [`deleteOrganizationMembership()`](https://clerk.com/docs/reference/backend/organization/delete-organization-membership)
+- [`createOrganizationInvitation()`](https://clerk.com/docs/reference/backend/organization/create-organization-invitation)
+- [`getOrganizationInvitationList()`](https://clerk.com/docs/reference/backend/organization/get-organization-invitation-list)
+- [`getOrganizationMembershipList()`](https://clerk.com/docs/reference/backend/organization/get-organization-membership-list)
+- [`getOrganization()`](https://clerk.com/docs/reference/backend/organization/get-organization)
+- [`updateOrganizationLogo()`](https://clerk.com/docs/reference/backend/organization/update-organization-logo)
+- [`updateOrganizationMembershipMetadata()`](https://clerk.com/docs/reference/backend/organization/update-organization-membership-metadata)
+- [`revokeOrganizationInvitation()`](https://clerk.com/docs/reference/backend/organization/revoke-organization-invitation)
+- [`updateOrganizationMembership()`](https://clerk.com/docs/reference/backend/organization/update-organization-membership)
+- [`updateOrganizationMetadata()`](https://clerk.com/docs/reference/backend/organization/update-organization-metadata)
+- [`updateOrganization()`](https://clerk.com/docs/reference/backend/organization/update-organization)
+- [`getPhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/get-phone-number)
+- [`deletePhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/delete-phone-number)
+- [`updatePhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/update-phone-number)
+- [`createPhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/create-phone-number)
+- [`deleteRedirectUrl()`](https://clerk.com/docs/reference/backend/redirect-urls/delete-redirect-url)
+- [`getRedirectUrlList()`](https://clerk.com/docs/reference/backend/redirect-urls/get-redirect-url-list)
+- [`createRedirectUrl()`](https://clerk.com/docs/reference/backend/redirect-urls/create-redirect-url)
+- [`getRedirectUrl()`](https://clerk.com/docs/reference/backend/redirect-urls/get-redirect-url)
+- [`getSamlConnectionList()`](https://clerk.com/docs/reference/backend/saml-connections/get-saml-connection-list)
+- [`createSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/create-saml-connection)
+- [`deleteSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/delete-saml-connection)
+- [`getSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/get-saml-connection)
+- [`updateSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/update-saml-connection)
+- [`getSessionList()`](https://clerk.com/docs/reference/backend/sessions/get-session-list)
+- [`getSession()`](https://clerk.com/docs/reference/backend/sessions/get-session)
+- [`revokeSession()`](https://clerk.com/docs/reference/backend/sessions/revoke-session)
+- [`verifySession()` (deprecated)](https://clerk.com/docs/reference/backend/sessions/verify-session)
+- [`getToken()`](https://clerk.com/docs/reference/backend/sessions/get-token)
+- [`createSignInToken()`](https://clerk.com/docs/reference/backend/sign-in-tokens/create-sign-in-token)
+- [`revokeSignInToken()`](https://clerk.com/docs/reference/backend/sign-in-tokens/revoke-sign-in-token)
+- [`createTestingToken()`](https://clerk.com/docs/reference/backend/testing-tokens/create-testing-token)
+- [Auth object](https://clerk.com/docs/reference/backend/types/auth-object)
+- [The Backend `AllowlistIdentifier` object](https://clerk.com/docs/reference/backend/types/backend-allowlist-identifier)
+- [The Backend `EmailAddress` object](https://clerk.com/docs/reference/backend/types/backend-email-address)
+- [The Backend `IdentificationLink` object](https://clerk.com/docs/reference/backend/types/backend-identification-link)
+- [The Backend `Client` object](https://clerk.com/docs/reference/backend/types/backend-client)
+- [The Backend `ExternalAccount` object](https://clerk.com/docs/reference/backend/types/backend-external-account)
+- [The Backend `Invitation` object](https://clerk.com/docs/reference/backend/types/backend-invitation)
+- [The Backend `OAuthApplication` object](https://clerk.com/docs/reference/backend/types/backend-oauth-application)
+- [The Backend `Organization` object](https://clerk.com/docs/reference/backend/types/backend-organization)
+- [The Backend `OrganizationMembership` object](https://clerk.com/docs/reference/backend/types/backend-organization-membership)
+- [The Backend `OrganizationInvitation` object](https://clerk.com/docs/reference/backend/types/backend-organization-invitation)
+- [The Backend `PhoneNumber` object](https://clerk.com/docs/reference/backend/types/backend-phone-number)
+- [The Backend `RedirectUrl` object](https://clerk.com/docs/reference/backend/types/backend-redirect-url)
+- [The Backend `SamlAccount` object](https://clerk.com/docs/reference/backend/types/backend-saml-account)
+- [The Backend `SessionActivity` object](https://clerk.com/docs/reference/backend/types/backend-session-activity)
+- [The Backend `SamlConnection` object](https://clerk.com/docs/reference/backend/types/backend-saml-connection)
+- [The Backend `Session` object](https://clerk.com/docs/reference/backend/types/backend-session)
+- [The Backend `User` object](https://clerk.com/docs/reference/backend/types/backend-user)
+- [The Backend `Web3Wallet` object](https://clerk.com/docs/reference/backend/types/backend-web3-wallet)
+- [The Backend `Verification` object](https://clerk.com/docs/reference/backend/types/backend-verification)
+- [`CommercePlan`](https://clerk.com/docs/reference/backend/types/commerce-plan)
+- [`CommerceSubscriptionItem`](https://clerk.com/docs/reference/backend/types/commerce-subscription-item)
+- [`CommerceSubscription`](https://clerk.com/docs/reference/backend/types/commerce-subscription)
+- [`Feature`](https://clerk.com/docs/reference/backend/types/feature)
+- [`PaginatedResourceResponse`](https://clerk.com/docs/reference/backend/types/paginated-resource-response)
+- [`deleteUserBackupCodes()`](https://clerk.com/docs/reference/backend/user/delete-user-backup-codes)
+- [`createUser()`](https://clerk.com/docs/reference/backend/user/create-user)
+- [`banUser()`](https://clerk.com/docs/reference/backend/user/ban-user)
+- [`deleteUserProfileImage()`](https://clerk.com/docs/reference/backend/user/delete-user-profile-image)
+- [`deleteUserPasskey()`](https://clerk.com/docs/reference/backend/user/delete-user-passkey)
+- [`deleteUserExternalAccount()`](https://clerk.com/docs/reference/backend/user/delete-user-external-account)
+- [`deleteUserWeb3Wallet()`](https://clerk.com/docs/reference/backend/user/delete-user-web3-wallet)
+- [`deleteUser()`](https://clerk.com/docs/reference/backend/user/delete-user)
+- [`deleteUserTOTP()`](https://clerk.com/docs/reference/backend/user/delete-user-totp)
+- [`disableUserMFA()`](https://clerk.com/docs/reference/backend/user/disable-user-mfa)
+- [`getCount()`](https://clerk.com/docs/reference/backend/user/get-count)
+- [`getOrganizationMembershipList()`](https://clerk.com/docs/reference/backend/user/get-organization-membership-list)
+- [`getOrganizationInvitationList()`](https://clerk.com/docs/reference/backend/user/get-organization-invitation-list)
+- [`getUserList()`](https://clerk.com/docs/reference/backend/user/get-user-list)
+- [getUserOauthAccessToken()](https://clerk.com/docs/reference/backend/user/get-user-oauth-access-token)
+- [`getUser()`](https://clerk.com/docs/reference/backend/user/get-user)
+- [`lockUser()`](https://clerk.com/docs/reference/backend/user/lock-user)
+- [`unlockUser()`](https://clerk.com/docs/reference/backend/user/unlock-user)
+- [`unbanUser()`](https://clerk.com/docs/reference/backend/user/unban-user)
+- [`updateUserMetadata()`](https://clerk.com/docs/reference/backend/user/update-user-metadata)
+- [`updateUserProfileImage()`](https://clerk.com/docs/reference/backend/user/update-user-profile-image)
+- [`verifyPassword()`](https://clerk.com/docs/reference/backend/user/verify-password)
+- [`verifyTOTP()`](https://clerk.com/docs/reference/backend/user/verify-totp)
+- [`updateUser()`](https://clerk.com/docs/reference/backend/user/update-user)
+- [Ruby on Rails integration](https://clerk.com/docs/reference/ruby/rails)
+- [Clerk Ruby SDK](https://clerk.com/docs/reference/ruby/overview)
+- [Sinatra integration](https://clerk.com/docs/reference/ruby/sinatra)
+- [Upgrade to `clerk-sdk-ruby` v4](https://clerk.com/docs/reference/ruby/v4-upgrade-guide)
+- [Ruby with Rack](https://clerk.com/docs/reference/ruby/rack)
+- [`updateClerkOptions()`](https://clerk.com/docs/reference/vue/update-clerk-options)
+- [Clerk Vue SDK](https://clerk.com/docs/reference/vue/overview)
+- [`clerkPlugin`](https://clerk.com/docs/reference/vue/clerk-plugin)
+- [clerkMiddleware() | Nuxt](https://clerk.com/docs/reference/nuxt/clerk-middleware)
+- [`@clerk/nuxt` module](https://clerk.com/docs/reference/nuxt/integration)
+- [Clerk Nuxt SDK](https://clerk.com/docs/reference/nuxt/overview)
+- [`clerkMiddleware()` | Astro](https://clerk.com/docs/reference/astro/clerk-middleware)
+- [Integration](https://clerk.com/docs/reference/astro/integration)
+- [Locals](https://clerk.com/docs/reference/astro/locals)
+- [Clerk Astro SDK](https://clerk.com/docs/reference/astro/overview)
+- [`updateClerkOptions()`](https://clerk.com/docs/reference/astro/update-clerk-options)
+- [Use Clerk with Astro and React](https://clerk.com/docs/reference/astro/react)
+- [`$authStore`](https://clerk.com/docs/reference/astro/client-side-helpers/auth-store)
+- [`$clerkStore`](https://clerk.com/docs/reference/astro/client-side-helpers/clerk-store)
+- [`$organizationStore`](https://clerk.com/docs/reference/astro/client-side-helpers/organization-store)
+- [`$signInStore`](https://clerk.com/docs/reference/astro/client-side-helpers/sign-in-store)
+- [`$sessionListStore`](https://clerk.com/docs/reference/astro/client-side-helpers/session-list-store)
+- [`$sessionStore`](https://clerk.com/docs/reference/astro/client-side-helpers/session-store)
+- [`$signUpStore`](https://clerk.com/docs/reference/astro/client-side-helpers/sign-up-store)
+- [`$userStore`](https://clerk.com/docs/reference/astro/client-side-helpers/user-store)
+- [Clerk Go SDK](https://clerk.com/docs/reference/go/overview)
+- [`auth()`](https://clerk.com/docs/reference/tanstack-react-start/auth)
+- [`clerkMiddleware()`](https://clerk.com/docs/reference/tanstack-react-start/clerk-middleware)
+- [Clerk TanStack React Start SDK](https://clerk.com/docs/reference/tanstack-react-start/overview)
+- [`rootAuthLoader()`](https://clerk.com/docs/reference/remix/root-auth-loader)
+- [`ClerkApp`](https://clerk.com/docs/reference/remix/clerk-app)
+- [Clerk Remix SDK](https://clerk.com/docs/reference/remix/overview)
+- [`clerkMiddleware()` | React Router](https://clerk.com/docs/reference/react-router/clerk-middleware)
+- [Clerk React Router SDK](https://clerk.com/docs/reference/react-router/overview)
+- [`getAuth()`](https://clerk.com/docs/reference/react-router/get-auth)
+- [`rootAuthLoader()`](https://clerk.com/docs/reference/react-router/root-auth-loader)
+- [`clerkPlugin()`](https://clerk.com/docs/reference/fastify/clerk-plugin)
+- [`getAuth()`](https://clerk.com/docs/reference/fastify/get-auth)
+- [Clerk Fastify SDK](https://clerk.com/docs/reference/fastify/overview)
+- [`requireAuth()`](https://clerk.com/docs/reference/express/require-auth)
+- [Clerk Express SDK](https://clerk.com/docs/reference/express/overview)
+- [`getAuth()`](https://clerk.com/docs/reference/express/get-auth)
+- [`clerkMiddleware()`](https://clerk.com/docs/reference/express/clerk-middleware)
+- [`getToken()`](https://clerk.com/docs/reference/ios/get-token)
+- [Clerk iOS SDK](https://clerk.com/docs/reference/ios/overview)
+- [Configure passkeys for Android](https://clerk.com/docs/reference/android/passkeys)
+- [`getToken()`](https://clerk.com/docs/reference/android/get-token)
+- [Clerk Android SDK](https://clerk.com/docs/reference/android/overview)
+- [Clerk Expo SDK](https://clerk.com/docs/reference/expo/overview)
+- [useOAuth() (deprecated)](https://clerk.com/docs/reference/expo/use-oauth)
+- [Configure passkeys for Expo](https://clerk.com/docs/reference/expo/passkeys)
+- [`useSignInWithApple()`](https://clerk.com/docs/reference/expo/use-sign-in-with-apple)
+- [`useLocalCredentials()`](https://clerk.com/docs/reference/expo/use-local-credentials)
+- [useSSO()](https://clerk.com/docs/reference/expo/use-sso)
+- [`createClerkClient()`](https://clerk.com/docs/reference/chrome-extension/create-clerk-client)
+- [Clerk Chrome Extension SDK](https://clerk.com/docs/reference/chrome-extension/overview)
+- [`APIKeys` object](https://clerk.com/docs/reference/javascript/api-keys)
+- [`Clerk` class](https://clerk.com/docs/reference/javascript/clerk)
+- [`Client` object](https://clerk.com/docs/reference/javascript/client)
+- [`Organization` object](https://clerk.com/docs/reference/javascript/organization)
+- [`SignIn` object](https://clerk.com/docs/reference/javascript/sign-in)
+- [`Session` object](https://clerk.com/docs/reference/javascript/session)
+- [`SignUp` object](https://clerk.com/docs/reference/javascript/sign-up)
+- [Clerk JavaScript SDK](https://clerk.com/docs/reference/javascript/overview)
+- [`User` object](https://clerk.com/docs/reference/javascript/user)
+- [`BackupCodeResource`](https://clerk.com/docs/reference/javascript/types/backup-code)
+- [`APIKeyResource`](https://clerk.com/docs/reference/javascript/types/api-key)
+- [`BillingCheckoutTotals`](https://clerk.com/docs/reference/javascript/types/billing-checkout-totals)
+- [`BillingMoneyAmount`](https://clerk.com/docs/reference/javascript/types/billing-money-amount)
+- [`BillingPaymentResource`](https://clerk.com/docs/reference/javascript/types/billing-payment-resource)
+- [`BillingPaymentMethodResource`](https://clerk.com/docs/reference/javascript/types/billing-payment-method-resource)
+- [`BillingCheckoutResource`](https://clerk.com/docs/reference/javascript/types/billing-checkout-resource)
+- [`BillingPayerResource`](https://clerk.com/docs/reference/javascript/types/billing-payer-resource)
+- [`BillingPlanResource`](https://clerk.com/docs/reference/javascript/types/billing-plan-resource)
+- [`BillingStatementGroup`](https://clerk.com/docs/reference/javascript/types/billing-statement-group)
+- [`BillingStatementResource`](https://clerk.com/docs/reference/javascript/types/billing-statement-resource)
+- [`BillingStatementTotals`](https://clerk.com/docs/reference/javascript/types/billing-statement-totals)
+- [`BillingSubscriptionResource`](https://clerk.com/docs/reference/javascript/types/billing-subscription-resource)
+- [`BillingSubscriptionItemResource`](https://clerk.com/docs/reference/javascript/types/billing-subscription-item-resource)
+- [`ClerkAPIError`](https://clerk.com/docs/reference/javascript/types/clerk-api-error)
+- [`ClerkAPIResponseError`](https://clerk.com/docs/reference/javascript/types/clerk-api-response-error)
+- [`CustomMenuItem`](https://clerk.com/docs/reference/javascript/types/custom-menu-item)
+- [`CustomPage`](https://clerk.com/docs/reference/javascript/types/custom-page)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/reference/javascript/types/clerk-paginated-response)
+- [`DeletedObjectResource`](https://clerk.com/docs/reference/javascript/types/deleted-object-resource)
+- [`EmailAddress`](https://clerk.com/docs/reference/javascript/types/email-address)
+- [`EmailLinkError`](https://clerk.com/docs/reference/javascript/types/email-link-error)
+- [`EnterpriseAccount`](https://clerk.com/docs/reference/javascript/types/enterprise-account)
+- [`EnterpriseAccountConnection`](https://clerk.com/docs/reference/javascript/types/enterprise-account-connection)
+- [`ExternalAccount`](https://clerk.com/docs/reference/javascript/types/external-account)
+- [`FeatureResource`](https://clerk.com/docs/reference/javascript/types/feature-resource)
+- [Metadata](https://clerk.com/docs/reference/javascript/types/metadata)
+- [`LastAuthenticationStrategy`](https://clerk.com/docs/reference/javascript/types/last-authentication-strategy)
+- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/reference/javascript/types/organization-custom-permission-key)
+- [`OrganizationCustomRoleKey`](https://clerk.com/docs/reference/javascript/types/organization-custom-role-key)
+- [`OrganizationDomain`](https://clerk.com/docs/reference/javascript/types/organization-domain)
+- [`OrganizationMembershipRequest`](https://clerk.com/docs/reference/javascript/types/organization-membership-request)
+- [`OrganizationInvitation`](https://clerk.com/docs/reference/javascript/types/organization-invitation)
+- [`OrganizationMembership`](https://clerk.com/docs/reference/javascript/types/organization-membership)
+- [OrganizationSuggestion](https://clerk.com/docs/reference/javascript/types/organization-suggestion)
+- [Clerk types](https://clerk.com/docs/reference/javascript/types/overview)
+- [`PermissionResource`](https://clerk.com/docs/reference/javascript/types/permission)
+- [`PasskeyResource`](https://clerk.com/docs/reference/javascript/types/passkey-resource)
+- [`PhoneNumber`](https://clerk.com/docs/reference/javascript/types/phone-number)
+- [`SamlAccountConnection`](https://clerk.com/docs/reference/javascript/types/saml-account-connection)
+- [`RoleResource`](https://clerk.com/docs/reference/javascript/types/role)
+- [`RedirectOptions`](https://clerk.com/docs/reference/javascript/types/redirect-options)
+- [`PublicUserData`](https://clerk.com/docs/reference/javascript/types/public-user-data)
+- [`SamlAccount`](https://clerk.com/docs/reference/javascript/types/saml-account)
+- [`SessionStatus`](https://clerk.com/docs/reference/javascript/types/session-status)
+- [`SessionTask`](https://clerk.com/docs/reference/javascript/types/session-task)
+- [`SessionWithActivities`](https://clerk.com/docs/reference/javascript/types/session-with-activities)
+- [SessionVerification](https://clerk.com/docs/reference/javascript/types/session-verification)
+- [`SetActiveParams`](https://clerk.com/docs/reference/javascript/types/set-active-params)
+- [`SignInFirstFactor`](https://clerk.com/docs/reference/javascript/types/sign-in-first-factor)
+- [`SignInInitialValues`](https://clerk.com/docs/reference/javascript/types/sign-in-initial-values)
+- [`SignInRedirectOptions`](https://clerk.com/docs/reference/javascript/types/sign-in-redirect-options)
+- [`SignInSecondFactor`](https://clerk.com/docs/reference/javascript/types/sign-in-second-factor)
+- [`SignUpInitialValues`](https://clerk.com/docs/reference/javascript/types/sign-up-initial-values)
+- [`SignUpRedirectOptions`](https://clerk.com/docs/reference/javascript/types/sign-up-redirect-options)
+- [UserOrganizationInvitation](https://clerk.com/docs/reference/javascript/types/user-organization-invitation)
+- [`TOTPResource`](https://clerk.com/docs/reference/javascript/types/totp)
+- [SSO Types](https://clerk.com/docs/reference/javascript/types/sso)
+- [`Verification`](https://clerk.com/docs/reference/javascript/types/verification)
+- [Web3Wallet](https://clerk.com/docs/reference/javascript/types/web3-wallet)
+- [Clerk React SDK](https://clerk.com/docs/reference/react/overview)
+- [API Reference](https://clerk.com/docs/reference/api/overview)
+- [Use Clerk with Next.js 12 and older](https://clerk.com/docs/reference/nextjs/usage-with-older-versions)
+- [clerkMiddleware() | Next.js](https://clerk.com/docs/reference/nextjs/clerk-middleware)
+- [Clerk Next.js SDK](https://clerk.com/docs/reference/nextjs/overview)
+- [`auth()`](https://clerk.com/docs/reference/nextjs/app-router/auth)
+- [`currentUser()`](https://clerk.com/docs/reference/nextjs/app-router/current-user)
+- [Route Handlers](https://clerk.com/docs/reference/nextjs/app-router/route-handlers)
+- [Server Actions](https://clerk.com/docs/reference/nextjs/app-router/server-actions)
+- [`buildClerkProps`](https://clerk.com/docs/reference/nextjs/pages-router/build-clerk-props)
+- [`getAuth()`](https://clerk.com/docs/reference/nextjs/pages-router/get-auth)
+- [Clerk: auth() was called but Clerk can't detect usage of clerkMiddleware()](https://clerk.com/docs/reference/nextjs/errors/auth-was-called)
+- [Clerk guides](https://clerk.com/docs/guides/overview)
+- [Free trials](https://clerk.com/docs/guides/billing/free-trials)
+- [Clerk Billing](https://clerk.com/docs/guides/billing/overview)
+- [Linking to Account Portal pages](https://clerk.com/docs/guides/account-portal/direct-links)
+- [Disabling the Account Portal](https://clerk.com/docs/guides/account-portal/disable-account-portal)
+- [Getting started with the Account Portal](https://clerk.com/docs/guides/account-portal/getting-started)
+- [Account Portal overview](https://clerk.com/docs/guides/account-portal/overview)
+- [Clerk Dashboard overview](https://clerk.com/docs/guides/dashboard/overview)
+- [Proxying the Clerk Frontend API](https://clerk.com/docs/guides/dashboard/dns-domains/proxy-fapi)
+- [Authentication across different domains](https://clerk.com/docs/guides/dashboard/dns-domains/satellite-domains)
+- [Tasks after sign-up/sign-in](https://clerk.com/docs/guides/configure/session-tasks)
+- [Sign-up and sign-in options](https://clerk.com/docs/guides/configure/auth-strategies/sign-up-sign-in-options)
+- [Sign in with Google](https://clerk.com/docs/guides/configure/auth-strategies/sign-in-with-google)
+- [How Clerk implements OAuth](https://clerk.com/docs/guides/configure/auth-strategies/oauth/how-clerk-implements-oauth)
+- [OAuth and OIDC overview](https://clerk.com/docs/guides/configure/auth-strategies/oauth/overview)
+- [Use OAuth for scoped access](https://clerk.com/docs/guides/configure/auth-strategies/oauth/scoped-access)
+- [Use OAuth for Single Sign-On (SSO)](https://clerk.com/docs/guides/configure/auth-strategies/oauth/single-sign-on)
+- [Verify OAuth tokens with Clerk](https://clerk.com/docs/guides/configure/auth-strategies/oauth/verify-oauth-tokens)
+- [Just-in-Time (JIT) Provisioning during SAML SSO](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/jit-provisioning)
+- [Enterprise Single Sign-On (SSO)](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/overview)
+- [Account linking](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/account-linking)
+- [Enterprise SSO authentication flows](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/authentication-flows)
+- [Add a custom OpenID Connect (OIDC) Provider as an enterprise connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/oidc/custom-provider)
+- [Add Google Workspace as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/google)
+- [Add Okta Workforce as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/okta)
+- [Add Microsoft Entra ID as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/azure)
+- [Add a custom Identity Provider (IdP) as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/custom-provider)
+- [Add Microsoft as an EASIE connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/easie/microsoft)
+- [Add Google as an EASIE connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/easie/google)
+- [Social connections (OAuth)](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/overview)
+- [Add Slack as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/slack)
+- [Add Spotify as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/spotify)
+- [Add TikTok as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/tiktok)
+- [Add Microsoft Azure Entra ID as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/microsoft)
+- [Add Notion as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/notion)
+- [Add Twitch as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/twitch)
+- [Twitter v1 (deprecated)](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/twitter)
+- [Add Vercel as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/vercel)
+- [Add X/Twitter v2 as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/x-twitter)
+- [Add Xero as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/xero)
+- [Account linking for OAuth](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/account-linking)
+- [Social connection (OAuth) providers](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/all-providers)
+- [Add Apple as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/apple)
+- [Add Atlassian as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/atlassian)
+- [Add Bitbucket as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/bitbucket)
+- [Add Box as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/box)
+- [Add Coinbase as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/coinbase)
+- [Add a custom OAuth provider as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/custom-provider)
+- [Add Discord as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/discord)
+- [Add Dropbox as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/dropbox)
+- [Add Facebook as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/facebook)
+- [Add GitHub as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/github)
+- [Add GitLab as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/gitlab)
+- [Add Google as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/google)
+- [Add HubSpot as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/hubspot)
+- [Add LINE as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/line)
+- [Add Linear as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/linear)
+- [Add Hugging Face as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/hugging-face)
+- [Add LinkedIn Open ID Connect (OIDC) as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/linkedin-oidc)
+- [LinkedIn (deprecated)](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/linkedin)
+- [OKX Wallet](https://clerk.com/docs/guides/configure/auth-strategies/web3/okx-wallet)
+- [MetaMask](https://clerk.com/docs/guides/configure/auth-strategies/web3/metamask)
+- [Base](https://clerk.com/docs/guides/configure/auth-strategies/web3/base)
+- [Coinbase Wallet](https://clerk.com/docs/guides/configure/auth-strategies/web3/coinbase-wallet)
+- [Email and SMS templates](https://clerk.com/docs/guides/customizing-clerk/email-sms-templates)
+- [Localization prop (experimental)](https://clerk.com/docs/guides/customizing-clerk/localization)
+- [Customizing Clerk](https://clerk.com/docs/guides/customizing-clerk/overview)
+- [Bring your own CSS](https://clerk.com/docs/guides/customizing-clerk/appearance-prop/bring-your-own-css)
+- [Clerk Elements (beta)](https://clerk.com/docs/guides/customizing-clerk/elements/overview)
+- [Common components](https://clerk.com/docs/guides/customizing-clerk/elements/reference/common)
+- [Sign-in components](https://clerk.com/docs/guides/customizing-clerk/elements/reference/sign-in)
+- [Sign-up components](https://clerk.com/docs/guides/customizing-clerk/elements/reference/sign-up)
+- [Build a sign-in flow with Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/guides/sign-in)
+- [Build a sign-up flow with Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/guides/sign-up)
+- [Styling for Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/guides/styling)
+- [Sign-in](https://clerk.com/docs/guides/customizing-clerk/elements/examples/sign-in)
+- [Sign-up](https://clerk.com/docs/guides/customizing-clerk/elements/examples/sign-up)
+- [Primitives](https://clerk.com/docs/guides/customizing-clerk/elements/examples/primitives)
+- [shadcn/ui](https://clerk.com/docs/guides/customizing-clerk/elements/examples/shadcn-ui)
+- [How Clerk works](https://clerk.com/docs/guides/how-clerk-works/overview)
+- [Routing in Clerk](https://clerk.com/docs/guides/how-clerk-works/routing)
+- [Rate limits](https://clerk.com/docs/guides/how-clerk-works/system-limits)
+- [Tokens and signatures](https://clerk.com/docs/guides/how-clerk-works/tokens-and-signatures)
+- [Multi-tenant architecture](https://clerk.com/docs/guides/how-clerk-works/multi-tenant-architecture)
+- [Cookies](https://clerk.com/docs/guides/how-clerk-works/cookies)
+- [Clerk Telemetry](https://clerk.com/docs/guides/how-clerk-works/security/clerk-telemetry)
+- [Vulnerability disclosure policy](https://clerk.com/docs/guides/how-clerk-works/security/vulnerability-disclosure-policy)
+- [Create and manage Organizations](https://clerk.com/docs/guides/organizations/create-and-manage)
+- [Organizations](https://clerk.com/docs/guides/organizations/overview)
+- [Organization metadata](https://clerk.com/docs/guides/organizations/metadata)
+- [Use Organization slugs in URLs](https://clerk.com/docs/guides/organizations/org-slugs-in-urls)
+- [Configure Organizations](https://clerk.com/docs/guides/organizations/configure)
+- [Invite users to your Organization](https://clerk.com/docs/guides/organizations/add-members/invitations)
+- [Organization-level Enterprise SSO](https://clerk.com/docs/guides/organizations/add-members/sso)
+- [Verified Domains](https://clerk.com/docs/guides/organizations/add-members/verified-domains)
+- [Roles and Permissions](https://clerk.com/docs/guides/organizations/control-access/roles-and-permissions)
+- [Check Roles and Permissions with Authorization Checks](https://clerk.com/docs/guides/organizations/control-access/check-access)
+- [JWT templates](https://clerk.com/docs/guides/sessions/jwt-templates)
+- [Manual JWT verification](https://clerk.com/docs/guides/sessions/manual-jwt-verification)
+- [Session tokens](https://clerk.com/docs/guides/sessions/session-tokens)
+- [Customize your session token](https://clerk.com/docs/guides/sessions/customize-session-tokens)
+- [Force a session token refresh](https://clerk.com/docs/guides/sessions/force-token-refresh)
+- [Sync auth status between your Chrome Extension and web app](https://clerk.com/docs/guides/sessions/sync-host)
+- [Verify a Clerk session in Go](https://clerk.com/docs/guides/sessions/verifying)
+- [Authorization checks](https://clerk.com/docs/guides/secure/authorization-checks)
+- [Bot protection](https://clerk.com/docs/guides/secure/bot-protection)
+- [Add reverification for sensitive actions](https://clerk.com/docs/guides/secure/reverification)
+- [Session options](https://clerk.com/docs/guides/secure/session-options)
+- [Brute force attacks and locking user accounts](https://clerk.com/docs/guides/secure/user-lockout)
+- [Features](https://clerk.com/docs/guides/secure/features)
+- [Client Trust](https://clerk.com/docs/guides/secure/client-trust)
+- [Force multi-factor authentication (MFA) for all users](https://clerk.com/docs/guides/secure/force-mfa)
+- [Legal compliance](https://clerk.com/docs/guides/secure/legal-compliance)
+- [Password protection and rules](https://clerk.com/docs/guides/secure/password-protection-and-rules)
+- [Restrictions](https://clerk.com/docs/guides/secure/restricting-access)
+- [Implement basic Role Based Access Control (RBAC) with metadata](https://clerk.com/docs/guides/secure/basic-rbac)
+- [Set up a waitlist in your Next.js app](https://clerk.com/docs/guides/secure/waitlist)
+- [Protect pages in your Nuxt app with Clerk](https://clerk.com/docs/guides/secure/protect-pages)
+- [Configure Clerk Content-Security-Policy headers](https://clerk.com/docs/guides/secure/best-practices/csp-headers)
+- [CSRF protection](https://clerk.com/docs/guides/secure/best-practices/csrf-protection)
+- [Fixation protection](https://clerk.com/docs/guides/secure/best-practices/fixation-protection)
+- [Unauthorized sign-in](https://clerk.com/docs/guides/secure/best-practices/unauthorized-sign-in)
+- [Protect email link sign-ins and sign-ups](https://clerk.com/docs/guides/secure/best-practices/protect-email-links)
+- [XSS leak protection](https://clerk.com/docs/guides/secure/best-practices/xss-leak-protection)
+- [User impersonation](https://clerk.com/docs/guides/users/impersonation)
+- [User metadata](https://clerk.com/docs/guides/users/extending)
+- [Invite users to your application](https://clerk.com/docs/guides/users/inviting)
+- [Users](https://clerk.com/docs/guides/users/managing)
+- [AI Prompts](https://clerk.com/docs/guides/development/ai-prompts)
+- [Clerk environment variables](https://clerk.com/docs/guides/development/clerk-environment-variables)
+- [Use image optimization to improve app performance](https://clerk.com/docs/guides/development/image-optimization)
+- [Customize your redirect URLs](https://clerk.com/docs/guides/development/customize-redirect-urls)
+- [Override Clerk interfaces with custom types](https://clerk.com/docs/guides/development/override-clerk-types-interfaces)
+- [Instances / Environments](https://clerk.com/docs/guides/development/managing-environments)
+- [Request authentication](https://clerk.com/docs/guides/development/making-requests)
+- [Add custom onboarding to your authentication flow](https://clerk.com/docs/guides/development/add-onboarding-flow)
+- [Basic geo blocking](https://clerk.com/docs/guides/development/geo-blocking)
+- [Integrate Clerk into your Next.js + tRPC app](https://clerk.com/docs/guides/development/trpc)
+- [Install Clerk with shadcn/ui CLI](https://clerk.com/docs/guides/development/shadcn-cli)
+- [Next.js rendering modes and Clerk](https://clerk.com/docs/guides/development/rendering-modes)
+- [Verify API keys in your Next.js application with Clerk](https://clerk.com/docs/guides/development/verifying-api-keys)
+- [Configure a consistent CRX ID for your Chrome Extension](https://clerk.com/docs/guides/development/configure-consistent-crx-id)
+- [Add React Router to your Clerk-powered Chrome Extension](https://clerk.com/docs/guides/development/add-react-router)
+- [Enable biometric sign-in for returning users in Expo](https://clerk.com/docs/guides/development/local-credentials)
+- [Access the Clerk object outside of components](https://clerk.com/docs/guides/development/access-clerk-outside-components)
+- [Enable offline support in your Expo app](https://clerk.com/docs/guides/development/offline-support)
+- [Add React Router to your Clerk + React application](https://clerk.com/docs/guides/development/declarative-mode)
+- [Remix SPA Mode](https://clerk.com/docs/guides/development/spa-mode)
+- [Endpoints](https://clerk.com/docs/guides/development/endpoints)
+- [Astro hybrid rendering](https://clerk.com/docs/guides/development/hybrid-rendering)
+- [Build your own sign-in-or-up page for your Expo web app](https://clerk.com/docs/guides/development/web-support/custom-sign-in-or-up-page)
+- [Web support](https://clerk.com/docs/guides/development/web-support/overview)
+- [Build your own sign-up page with prebuilt components on web](https://clerk.com/docs/guides/development/web-support/custom-sign-up-page)
+- [Deploy a Clerk app behind a proxy](https://clerk.com/docs/guides/development/deployment/behind-a-proxy)
+- [Change domain or subdomain](https://clerk.com/docs/guides/development/deployment/changing-domains)
+- [Deploy your Clerk app to production](https://clerk.com/docs/guides/development/deployment/production)
+- [Staging alternatives](https://clerk.com/docs/guides/development/deployment/staging-alternatives)
+- [Deploying a Clerk app to Vercel](https://clerk.com/docs/guides/development/deployment/vercel)
+- [Deploy a Chrome Extension to production](https://clerk.com/docs/guides/development/deployment/chrome-extension)
+- [Deploy an Expo app to production](https://clerk.com/docs/guides/development/deployment/expo)
+- [Deploy an Astro app to production](https://clerk.com/docs/guides/development/deployment/astro)
+- [Build your own UI (custom flows)](https://clerk.com/docs/guides/development/custom-flows/overview)
+- [Error handling](https://clerk.com/docs/guides/development/custom-flows/error-handling)
+- [Handle accepting Organization invitation links](https://clerk.com/docs/guides/development/custom-flows/organizations/accept-organization-invitations)
+- [Build a custom flow for creating Organizations](https://clerk.com/docs/guides/development/custom-flows/organizations/create-organizations)
+- [Build a custom flow for managing Organization membership requests](https://clerk.com/docs/guides/development/custom-flows/organizations/manage-membership-requests)
+- [Build a custom flow for creating and managing Organization invitations](https://clerk.com/docs/guides/development/custom-flows/organizations/manage-organization-invitations)
+- [Build a custom flow for managing member Roles in an Organization](https://clerk.com/docs/guides/development/custom-flows/organizations/manage-roles)
+- [Build a custom flow for managing a user's Organization invitations](https://clerk.com/docs/guides/development/custom-flows/organizations/manage-user-org-invitations)
+- [Build a custom flow for switching Organizations](https://clerk.com/docs/guides/development/custom-flows/organizations/organization-switcher)
+- [Build a custom flow for updating an Organization](https://clerk.com/docs/guides/development/custom-flows/organizations/update-organizations)
+- [Build a custom checkout flow with an existing payment method](https://clerk.com/docs/guides/development/custom-flows/billing/checkout-existing-payment-method)
+- [Build a custom checkout flow with a new payment method](https://clerk.com/docs/guides/development/custom-flows/billing/checkout-new-payment-method)
+- [Build a custom flow for adding a new payment method](https://clerk.com/docs/guides/development/custom-flows/billing/add-new-payment-method)
+- [Sign-up with application invitations](https://clerk.com/docs/guides/development/custom-flows/authentication/application-invitations)
+- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/guides/development/custom-flows/authentication/bot-sign-up-protection)
+- [Build a custom flow for handling email links](https://clerk.com/docs/guides/development/custom-flows/authentication/email-links)
+- [Build a custom sign-in flow with multi-factor authentication](https://clerk.com/docs/guides/development/custom-flows/authentication/email-password-mfa)
+- [Build a custom email/password authentication flow](https://clerk.com/docs/guides/development/custom-flows/authentication/email-password)
+- [Build a custom email or SMS OTP authentication flow](https://clerk.com/docs/guides/development/custom-flows/authentication/email-sms-otp)
+- [Embeddable email links with sign-in tokens](https://clerk.com/docs/guides/development/custom-flows/authentication/embedded-email-links)
+- [Build a custom flow for authenticating with enterprise connections](https://clerk.com/docs/guides/development/custom-flows/authentication/enterprise-connections)
+- [Build a custom Google One Tap authentication flow](https://clerk.com/docs/guides/development/custom-flows/authentication/google-one-tap)
+- [Build a custom flow for displaying the last authentication method](https://clerk.com/docs/guides/development/custom-flows/authentication/last-authentication-strategy)
+- [Build a custom flow for handling legal acceptance](https://clerk.com/docs/guides/development/custom-flows/authentication/legal-acceptance)
+- [Build a custom multi-session flow](https://clerk.com/docs/guides/development/custom-flows/authentication/multi-session-applications)
+- [Build a custom flow for authenticating with OAuth connections](https://clerk.com/docs/guides/development/custom-flows/authentication/oauth-connections)
+- [Build a custom authentication flow using passkeys](https://clerk.com/docs/guides/development/custom-flows/authentication/passkeys)
+- [Build a custom sign-out flow](https://clerk.com/docs/guides/development/custom-flows/authentication/sign-out)
+- [Build a custom flow for managing API keys](https://clerk.com/docs/guides/development/custom-flows/api-keys/manage-api-keys)
+- [Build a custom flow for managing TOTP-based multi-factor authentication](https://clerk.com/docs/guides/development/custom-flows/account-updates/manage-totp-based-mfa)
+- [Build a custom flow for handling user impersonation](https://clerk.com/docs/guides/development/custom-flows/account-updates/user-impersonation)
+- [Build a custom flow for adding an email to a user's account](https://clerk.com/docs/guides/development/custom-flows/account-updates/add-email)
+- [Build a custom flow for adding a phone number to a user's account](https://clerk.com/docs/guides/development/custom-flows/account-updates/add-phone)
+- [Build a custom flow for resetting a user's password](https://clerk.com/docs/guides/development/custom-flows/account-updates/forgot-password)
+- [Build a custom flow for managing SMS-based multi-factor authentication](https://clerk.com/docs/guides/development/custom-flows/account-updates/manage-sms-based-mfa)
+- [Build a custom flow for managing SSO connections](https://clerk.com/docs/guides/development/custom-flows/account-updates/manage-sso-connections)
+- [Migrating](https://clerk.com/docs/guides/development/migrating/overview)
+- [Migrate from Cognito](https://clerk.com/docs/guides/development/migrating/cognito)
+- [Migrate from Firebase](https://clerk.com/docs/guides/development/migrating/firebase)
+- [Migrate from Auth.js to Clerk](https://clerk.com/docs/guides/development/migrating/authjs)
+- [Migrating from the Astro community SDK](https://clerk.com/docs/guides/development/migrating/astro-community-sdk)
+- [Migrating from the Vue community SDK](https://clerk.com/docs/guides/development/migrating/vue-community-sdk)
+- [Connect MCP-compatible clients to your MCP server](https://clerk.com/docs/guides/development/mcp/connect-mcp-client)
+- [Model Context Protocol (MCP)](https://clerk.com/docs/guides/development/mcp/overview)
+- [Using API keys](https://clerk.com/docs/guides/development/machine-auth/api-keys)
+- [Using M2M tokens](https://clerk.com/docs/guides/development/machine-auth/m2m-tokens)
+- [Machine Authentication](https://clerk.com/docs/guides/development/machine-auth/overview)
+- [Sync Clerk data to your app with webhooks](https://clerk.com/docs/guides/development/webhooks/syncing)
+- [Debug your webhooks](https://clerk.com/docs/guides/development/webhooks/debugging)
+- [Handling webhooks with Inngest](https://clerk.com/docs/guides/development/webhooks/inngest)
+- [Integrate Loops with Clerk](https://clerk.com/docs/guides/development/webhooks/loops)
+- [Webhooks overview](https://clerk.com/docs/guides/development/webhooks/overview)
+- [Integrations](https://clerk.com/docs/guides/development/integrations/overview)
+- [Integrate Clerk through the Vercel Marketplace](https://clerk.com/docs/guides/development/integrations/platforms/vercel-marketplace)
+- [Integrate Shopify with Clerk](https://clerk.com/docs/guides/development/integrations/platforms/shopify)
+- [Integrate Convex with Clerk](https://clerk.com/docs/guides/development/integrations/databases/convex)
+- [Integrate Firebase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/firebase)
+- [Integrate Grafbase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/grafbase)
+- [Integrate Hasura with Clerk](https://clerk.com/docs/guides/development/integrations/databases/hasura)
+- [Integrate InstantDB with Clerk](https://clerk.com/docs/guides/development/integrations/databases/instantdb)
+- [Integrate Neon Postgres with Clerk](https://clerk.com/docs/guides/development/integrations/databases/neon)
+- [Integrate Nhost with Clerk](https://clerk.com/docs/guides/development/integrations/databases/nhost)
+- [Integrate Prisma Postgres with Clerk](https://clerk.com/docs/guides/development/integrations/databases/prisma-postgres)
+- [Integrate Supabase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/supabase)
+- [Enable Google Analytics for Clerk](https://clerk.com/docs/guides/development/integrations/analytics/google-analytics)
+- [Upgrade guides overview](https://clerk.com/docs/guides/development/upgrading/overview)
+- [Upgrading from v2 to v3](https://clerk.com/docs/guides/development/upgrading/upgrading-from-v2-to-v3)
+- [Versioning overview](https://clerk.com/docs/guides/development/upgrading/versioning)
+- [Upgrade to API version 2025-11-10](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/2025-11-10)
+- [Upgrading to Clerk Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2)
+- [Upgrade from Clerk's Node SDK to the Express SDK](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/node-to-express)
+- [Upgrade to @clerk/nextjs v6](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/nextjs-v6)
+- [Upgrade to @clerk/clerk-expo v2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/expo-v2)
+- [Upgrading `@clerk/backend` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/backend)
+- [Upgrading `@clerk/chrome-extension` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/chrome-extension)
+- [Upgrading `@clerk/clerk-expo` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/expo)
+- [Upgrading `@clerk/fastify` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/fastify)
+- [Upgrading `@clerk/remix` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/remix)
+- [Upgrading `@clerk/nextjs` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/nextjs)
+- [Upgrading `@clerk/clerk-sdk-node` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/node)
+- [Upgrading `@clerk/clerk-js` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/javascript)
+- [Upgrading `@clerk/clerk-react` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/react)
+- [Troubleshooting](https://clerk.com/docs/guides/development/troubleshooting/overview)
+- [Email deliverability](https://clerk.com/docs/guides/development/troubleshooting/email-deliverability)
+- [Script loading](https://clerk.com/docs/guides/development/troubleshooting/script-loading)
+- [Create a minimal reproduction](https://clerk.com/docs/guides/development/troubleshooting/help-support/create-a-minimal-reproduction)
+- [Create a browser replay](https://clerk.com/docs/guides/development/troubleshooting/help-support/browser-replay)
+- [Backend-only SDK](https://clerk.com/docs/guides/development/sdk-development/backend-only)
+- [Conventions](https://clerk.com/docs/guides/development/sdk-development/conventions)
+- [Frontend-only SDK](https://clerk.com/docs/guides/development/sdk-development/frontend-only)
+- [Fullstack SDK](https://clerk.com/docs/guides/development/sdk-development/fullstack)
+- [SDK development](https://clerk.com/docs/guides/development/sdk-development/overview)
+- [Philosophy](https://clerk.com/docs/guides/development/sdk-development/philosophy)
+- [Terminology](https://clerk.com/docs/guides/development/sdk-development/terminology)
+- [SDK types](https://clerk.com/docs/guides/development/sdk-development/types)
+- [Testing](https://clerk.com/docs/guides/development/testing/overview)
+- [Testing with Postman or Insomnia](https://clerk.com/docs/guides/development/testing/postman-or-insomnia)
+- [Test emails and phones](https://clerk.com/docs/guides/development/testing/test-emails-and-phones)
+- [Custom commands](https://clerk.com/docs/guides/development/testing/cypress/custom-commands)
+- [Testing with Cypress](https://clerk.com/docs/guides/development/testing/cypress/overview)
+- [Test Account Portal flows](https://clerk.com/docs/guides/development/testing/cypress/test-account-portal)
+- [Testing with Playwright](https://clerk.com/docs/guides/development/testing/playwright/overview)
+- [Test authenticated flows](https://clerk.com/docs/guides/development/testing/playwright/test-authenticated-flows)
+- [Test helpers](https://clerk.com/docs/guides/development/testing/playwright/test-helpers)
+- [Backend API errors](https://clerk.com/docs/guides/development/errors/backend-api)
+- [Frontend API errors](https://clerk.com/docs/guides/development/errors/frontend-api)
+- [Errors overview](https://clerk.com/docs/guides/development/errors/overview)
