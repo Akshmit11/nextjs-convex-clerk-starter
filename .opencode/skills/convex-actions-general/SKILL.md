@@ -114,6 +114,13 @@ This skill includes comprehensive reference documentation in `docs/Convex Action
 8. **Understand limits** and design applications to respect them
 9. **Use TypeScript strictly** with `Id` types and proper generics
 
+## Database Performance & Best Practices
+- **Never use `.filter()` on database queries** if possible. It scans all documents. Use indexes instead.
+- **Use `withIndex`** for efficient filtering and sorting.
+- **Use `collect()` carefully**. It loads all results into memory. Prefer pagination for large datasets.
+- **Await all promises**. `ctx.runQuery` and `ctx.runMutation` return promises that must be awaited.
+
+
 ## Key General Guidelines
 
 - ALWAYS use argument validators for all functions (queries, mutations, actions)

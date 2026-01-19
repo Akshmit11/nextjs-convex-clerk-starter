@@ -150,7 +150,15 @@ http.route({
          // ... extract other fields
        });
     },
-    // Add other handlers: onSubscriptionActive, onSubscriptionCancelled, etc.
+    },
+    onSubscriptionActive: async (ctx, payload) => {
+      await ctx.runMutation(internal.webhooks.handleSubscriptionActive, {
+        subscriptionId: payload.data.subscription_id,
+        status: payload.data.status,
+        // ... extract other fields
+      });
+    },
+    // Add other handlers: onSubscriptionCancelled, onPaymentFailed, etc.
   }),
 });
 

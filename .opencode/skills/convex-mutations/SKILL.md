@@ -70,6 +70,13 @@ This skill includes comprehensive reference documentation in `references/mutatio
 - Return `null` implicitly if your mutation doesn't have an explicit return value
 - Use return type annotations when calling mutations in the same file (TypeScript circularity workaround)
 
+## Performance & Best Practices
+- **Avoid `.filter()`**: Always prefer `withIndex` for database queries to avoid full table scans.
+- **Limit results**: Use `.take(n)` instead of `collect()` when you only need a subset of data.
+- **Transactions**: Mutations are transactional. If one part fails, the whole mutation rolls back.
+- **Serial Execution**: Database operations within a mutation are serial. You cannot parallelize `ctx.db` calls (Reference: Convex docs).
+
+
 ## Example: Mutation with Database Operation and Scheduling
 
 ```ts

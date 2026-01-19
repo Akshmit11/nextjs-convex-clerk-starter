@@ -117,4 +117,13 @@ export async function deleteItem(formData: FormData) {
   // 3. Mutate
   await db.delete(parsed.data.id);
 }
+
+## 5. Middleware Changes (Auth)
+
+In Next.js 16, **Authentication Middleware** must be renamed/moved to `proxy.ts`.
+
+**❌ Old File:** `middleware.ts` (for Auth)
+**✅ New File:** `proxy.ts`
+
+This avoids conflicts with Next.js internal middleware.
 ```

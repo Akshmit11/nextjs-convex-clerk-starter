@@ -94,8 +94,18 @@ import Image from "next/image";
 
 ### Fonts
 Use `next/font/google`.
+
+### 6. Authentication (Next.js 16+)
+**CRITICAL CHANGE**: Next.js 16 uses `proxy.ts` instead of `middleware.ts` for authentication handling.
+
+**❌ Legacy (middleware.ts):**
+Deprecated for Auth in v16.
+
+**✅ Modern (proxy.ts):**
+Place `proxy.ts` in the project root.
 ```typescript
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
-// Apply to body via className={inter.className}
+import { clerkMiddleware } from "@clerk/nextjs/server";
+export default clerkMiddleware();
+export const config = { matcher: [...] };
 ```
+Refer to `clerk-auth` skill for full implementation.
