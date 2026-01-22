@@ -109,6 +109,12 @@ CLERK_WEBHOOK_SECRET=your_webhook_secret
 
 ---
 
+### 3. Context7 Setup
+
+* Go to [Context7 Dashboard](https://dashboard.context7.com)
+* Create api key
+* Add the key in opencode.json
+
 ## Learn More
 
 * [Next.js Documentation](https://nextjs.org/docs)
